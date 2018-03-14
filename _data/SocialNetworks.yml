@@ -95,3 +95,13 @@ yelp:
   name: "Yelp"
   baseURL: "https://{{ site.author.yelp }}.yelp.com"
   icon: "fa-yelp"
+
+keybase:
+  name: "Keybase.io"
+  baseURL: "https://keybase.io/"
+  icon: "fa-key"
+
+orcid:
+  name: "Orcid"
+  baseURL: "https://orcid.org/"
+  icon: "ai-orcid"

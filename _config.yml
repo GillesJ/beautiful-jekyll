@@ -73,6 +73,8 @@ social-network-links:
   email: "gilles@jacobsgill.es"
   linkedin: https://www.linkedin.com/in/gilles-m-jacobs
   github: https://github.com/GillesJ
+  orcid: https://orcid.org/0000-0001-8846-3015
+  keybase: https://keybase.io/gillesjacobs
   facebook: https://www.facebook.com/g.m.m.jacobs
   twitter: https://twitter.com/gillesmjacobs
 #  reddit: yourname
@@ -134,7 +136,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Brussels/Belgium"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
