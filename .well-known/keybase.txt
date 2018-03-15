@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/gillesjacobs
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jacobsgill.es
+  * I am gillesjacobs (https://keybase.io/gillesjacobs) on keybase.
+  * I have a public key with fingerprint A3C2 A8F6 2B59 2975 E5F6  E783 EEAE 8FE3 0391 F1CF
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101cb66a3d979fdfaeb76880f338edf4c2d8288f23c547aa95a3271588d23a53d8f0a",
+      "fingerprint": "a3c2a8f62b592975e5f6e783eeae8fe30391f1cf",
+      "host": "keybase.io",
+      "key_id": "eeae8fe30391f1cf",
+      "kid": "0101cb66a3d979fdfaeb76880f338edf4c2d8288f23c547aa95a3271588d23a53d8f0a",
+      "uid": "bcc3e016cb734c35b216dda74d4d2419",
+      "username": "gillesjacobs"
+    },
+    "service": {
+      "hostname": "jacobsgill.es",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1521101025,
+  "expire_in": 157680000,
+  "prev": "1de058a865e1008548bb7b8b3ea57b8714350261b1f7338758fed1262de57a95",
+  "seqno": 26,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMIjAnicrVJdbAxRGJ1tS1n6k3hUfxMJZdPMvbN35u7y1Ad9kKZCVAnWnbnfrNHp
+ztqZ3ZLGT4JECIlISESDUEKkEl6ExE+zkmrxQBCUINqKoCEV1SruFG8e3Zcv937n
+O/ecky9fUiiFQ48aFp3rWDqpP9R9szUrrTo391WLbLh8sxxvkRthrIDDwfMTjTaX
+47KCFGQamsZUHtNjFrcYGLpGqWKpKgVuRU3MKabUwqpJojpjMcJUrCNCKccqIyqn
+lsLkiGzZqSRk0hk75QtappqYUUvDBonhmE6AWBroVAVgQC1QFTWGLGRaYnC96wUT
+QpzBPKiyXfEmLokxef/A/2fd2TE6wzRVUJBmGroaNVViYKRxzvQoj3IcRbEA6EEm
+xZpAoJO244C3gZmu4clbIrLo5GwTgnADN39Qv/sBtgo8QZDOuL5ruo5orff9tBcP
+Rv3N6QDbDEbiD0vCsFNchCkmcpDxbDclx5FAmr4d0CKCkfCuYBKRYVPazkDCDhBE
+uFfECf6BnKBEHBRCGdUIIEWhJEoNQzeooQIjouooqhIFa8hAli4y04nImSOsYQ5E
+F3HJga+NKVeOY03oZEnB6dnJFPOzGZC3dNxYXSSFwtL4cQXBlknhieV/d6/04QSp
+bdqlyGiYVEdqPzqdQ6U97csPlm3rOZndt/3Cl9OVw0M7bzQ6o/nrFdcKyiqf7T2x
+fGbNrbXPyc89dUdHrzzOLmzrGB6YfXdo//P6FX1V5/vXvO7On7nauSA0fevx6bPm
+Vx6AKZvy8GPap6m7lxWzwW/ui1z98ZbbF5PK/dN731ymfUU4nXu1aqRLav369F3+
+2GBDTxcrjfN5UPFmV9OTrn67fEfhndklK6WpI/aAM+dg+3DKLLSztfNOOflDM4ZL
+5sKS0Fd38Yf3vnnnpVX8va95qKDsbGnb53X33q7Zvdrpu/Aw/qSu123tJi1+88iD
+hvoj0uSe8pqGsFdd1n6+9/AvdsdKow==
+=Woiz
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gillesjacobs
+
+==================================================================
