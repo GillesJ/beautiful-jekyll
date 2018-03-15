@@ -167,8 +167,7 @@ defaults:
 link-tags: true
 
 # include this clearly
-include:
-  - [".well-known"]
+include: [".well-known"]
 
 # Exclude these files from production site
 exclude:
