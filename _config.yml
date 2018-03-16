@@ -70,8 +70,8 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   email: "gilles@jacobsgill.es"
-  linkedin: gilles-m-jacobs
   github: GillesJ
+  linkedin: gilles-m-jacobs
   orcid: 0000-0001-8846-3015
   keybase: gillesjacobs
   twitter: gillesmjacobs
