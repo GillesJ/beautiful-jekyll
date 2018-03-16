@@ -2,5 +2,7 @@
 layout: page
 title: About me
 subtitle: Who am I and what do I do?
-redirect_from: "/about/"
+redirect_from:
+  - "/about/"
+  - "/info/"
 ---
