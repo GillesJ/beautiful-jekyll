@@ -15,7 +15,7 @@ He takes personal interest in blockchain technologies such as smart contracts an
   {% for social_link in site.aboutme-social-links %}
     {% if social_link[1] != "" %}
       <li><a href="{{ social_link[1] }}" title="{{ social_link[0] }}">
-        <i class="fa fa-{{ social_link[0] }}" aria-hidden="true"></i>\t{{ social_link[0] }}
+        {{ social_link[0] }}
       </a></li>
     {% endif %}
   {% endfor %}

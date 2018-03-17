@@ -93,15 +93,15 @@ social-network-links:
 
 # About me social links
 aboutme-social-links:
-  linkedin:  "https://linkedin.com/in/gilles-m-jacobs"
-  orcid: "https://orcid.org/0000-0001-8846-3015"
-  keybase: "https://keybase.io/gillesjacobs"
-  github: "https://github.com/gillesj"
-  meetup: "https://www.meetup.com/members/212867003/"
-  twitter: "https://twitter.com/gillesmjacobs"
-  ugent: "http://research.flw.ugent.be/en/gillesm.jacobs"
-  researchgate: "https://www.researchgate.net/profile/Gilles_Jacobs2"
-  googlescholar: "https://scholar.google.be/citations?user=VnNsmf8AAAAJ"
+  LinkedIn:  "https://linkedin.com/in/gilles-m-jacobs"
+  Orcid: "https://orcid.org/0000-0001-8846-3015"
+  Keybase: "https://keybase.io/gillesjacobs"
+  Github: "https://github.com/gillesj"
+  Meetup: "https://www.meetup.com/members/212867003/"
+  Twitter: "https://twitter.com/gillesmjacobs"
+  Ghent University: "http://research.flw.ugent.be/en/gillesm.jacobs"
+  ResearchGate: "https://www.researchgate.net/profile/Gilles_Jacobs2"
+  Google Scholar: "https://scholar.google.be/citations?user=VnNsmf8AAAAJ"
 
 
 # Select which share links to show in posts
