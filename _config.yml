@@ -70,12 +70,13 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   email: "gilles@jacobsgill.es"
-  github: GillesJ
   linkedin: gilles-m-jacobs
   orcid: 0000-0001-8846-3015
   keybase: gillesjacobs
   # twitter: gillesmjacobs
   # rss: false
+  # github: GillesJ
+
 
 #  reddit: yourname
 #  google-plus: +DeanAttali
@@ -89,6 +90,19 @@ social-network-links:
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
+
+# About me social links
+aboutme-social-links:
+  linkedin:  "https://linkedin.com/in/gilles-m-jacobs"
+  orcid: "https://orcid.org/0000-0001-8846-3015"
+  keybase: "https://keybase.io/gillesjacobs"
+  github: "https://github.com/gillesj"
+  meetup: "https://www.meetup.com/members/212867003/"
+  twitter: "https://twitter.com/gillesmjacobs"
+  ugent: "http://research.flw.ugent.be/en/gillesm.jacobs"
+  researchgate: "https://www.researchgate.net/profile/Gilles_Jacobs2"
+  googlescholar: "https://scholar.google.be/citations?user=VnNsmf8AAAAJ"
+
 
 # Select which share links to show in posts
 share-links-active:

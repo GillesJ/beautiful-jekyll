@@ -11,8 +11,8 @@ Gilles Jacobs is currently researching text mining technologies for financial ap
 He takes personal interest in blockchain technologies such as smart contracts and decentralized governance.
 
 ## Find me on:
-<ul class="social-network-links">
-  {% for social_link in site.social-network-links %}
+<ul class="social-links">
+  {% for social_link in site.aboutme-social-links %}
     {% if social_link[1] != "" %}
       <li><a href="{{ social_link[1] }}" title="{{ social_link[0] }}">
         <i class="fa fa-{{ social_link[0] }}" aria-hidden="true"></i>
