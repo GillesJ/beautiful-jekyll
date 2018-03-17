@@ -12,12 +12,9 @@ He takes personal interest in blockchain technologies such as smart contracts an
 
 ## Find me on:
 <ul class="social-links">
-  {% for social_link in site.aboutme-social-links %}
+  {% for social_link in site.social_links %}
     {% if social_link[1] != "" %}
-      <li><a href="{{ social_link[1] }}" title="{{ social_link[0] }}">
-        <i class="fa fa-{{ social_link[0] }}" aria-hidden="true"></i>
-      social_link
-      </a></li>
+      <li><a href="{{ social_link[1] }}">{{ social_link[0] }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
