@@ -16,7 +16,7 @@ He takes personal interest in blockchain technologies such as smart contracts an
   <input name="_subject" placeholder="Message subject" /><br />
   <textarea name="message" placeholder="Your message"></textarea><br />
   <button type="submit">Send</button>
-  <input type="hidden" name="_next" value="//site.io/thanks.html" />
+  <input type="hidden" name="_next" value="//{{ site.baseurl }}/thanks.html" />
   <input type="text" name="_gotcha" style="display:none" />
   <input type="hidden" name="_format" value="plain" />
 </form>
