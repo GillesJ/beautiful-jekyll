@@ -12,9 +12,9 @@ He takes personal interest in blockchain technologies such as smart contracts an
 
 ## Contact
 <form method="POST" action="//formspree.io/giles@jacobsgill.es">
-  <input name="_replyto" placeholder="Your email" type="email">
-  <input name="_subject" placeholder="Message subject" />
-  <textarea name="message" placeholder="Your message"></textarea>
+  <input name="_replyto" placeholder="Your email" type="email"><br />
+  <input name="_subject" placeholder="Message subject" /><br />
+  <textarea name="message" placeholder="Your message"></textarea><br />
   <button type="submit">Send</button>
   <input type="hidden" name="_next" value="//site.io/thanks.html" />
   <input type="text" name="_gotcha" style="display:none" />
