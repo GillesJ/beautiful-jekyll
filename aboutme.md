@@ -10,6 +10,17 @@ Gilles Jacobs is currently researching text mining technologies for financial ap
 
 He takes personal interest in blockchain technologies such as smart contracts and decentralized governance.
 
+## Contact
+<form method="POST" action="//formspree.io/giles@jacobsgill.es">
+  <input name="_replyto" placeholder="Your email" type="email">
+  <input name="_subject" placeholder="Message subject" />
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+  <input type="hidden" name="_next" value="//site.io/thanks.html" />
+  <input type="text" name="_gotcha" style="display:none" />
+  <input type="hidden" name="_format" value="plain" />
+</form>
+
 ## Find me on:
 <ul class="social-links">
   {% for social_link in site.aboutme-social-links %}
