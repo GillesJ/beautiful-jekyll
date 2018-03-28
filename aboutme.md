@@ -11,6 +11,7 @@ Gilles Jacobs is currently researching text mining technologies for financial ap
 He takes personal interest in blockchain technologies such as smart contracts and decentralized governance.
 
 ## Contact
+You can message me by using the email form below:
 <!-- Put this in http://hivelogic.com/enkoder/index.php -->
 <!-- <form method="POST" id="formaction">
   <input name="_replyto" placeholder="Your email" type="email"><br />
@@ -73,6 +74,8 @@ while(x=eval(x));
 //-->
 //]]>
 </script>
+
+If you need more secure and confidential communication you can find [my PGP public encryption key on keybase](https://keybase.io/gillesjacobs).
 
 ## Find me on:
 <ul class="social-links">
