@@ -1,0 +1,14 @@
+Put this in http://hivelogic.com/enkoder/index.php -->
+<form method="POST" id="formaction">
+  <input name="_replyto" placeholder="Your email" type="email"><br />
+  <input name="_subject" placeholder="Message subject" /><br />
+  <textarea name="message" placeholder="Your message"></textarea><br />
+  <button type="submit">Send</button>
+  <input type="hidden" name="_next" value="//jacobsgill.es/thanks.html" />
+  <input type="text" name="_gotcha" style="display:none" />
+  <input type="hidden" name="_format" value="plain" />
+</form>
+<script>
+    var contactform =  document.getElementById('formaction');
+    contactform.setAttribute('action', '//formspree.io/' + 'gilles' + '@' + 'jacobsgill' + '.' + 'es');
+</script>
