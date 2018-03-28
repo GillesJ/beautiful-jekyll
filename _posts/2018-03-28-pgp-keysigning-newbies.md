@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PGP and keysigning for newbies
-subtitle: Each post also has a subtitle
+subtitle: Step-by-step guide of PGP key generation, encrypting and signing.
 description: Step-by-step guide of PGP key generation, signing, encrypting and verifying.
 permalink: pgp-keysigning-for-newbies
 image: /img/pgpkeysigning.png
