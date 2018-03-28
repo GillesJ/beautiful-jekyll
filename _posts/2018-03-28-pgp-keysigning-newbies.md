@@ -10,3 +10,5 @@ published: True
 ---
 
 This page introduces PGP, its uses, and guides newcomers through the process of keysigning from generation to sending your freshly signed key to the server.
+
+# Keybase.io: the good, the bad, the ugly
