@@ -2,7 +2,7 @@
 layout: post
 title: Comment policy
 comments: true
-published: true
+published: false
 ---
 Say anything you like, how you like it.
 
