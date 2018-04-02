@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Comment policy
-published: True
+comments: true
+published: true
 ---
 Say anything you like, how you like it.
 

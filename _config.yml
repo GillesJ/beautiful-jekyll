@@ -102,6 +102,8 @@ aboutme-social-links:
   Ghent University: "http://research.flw.ugent.be/en/gillesm.jacobs"
   ResearchGate: "https://www.researchgate.net/profile/Gilles_Jacobs2"
   Google Scholar: "https://scholar.google.be/citations?user=VnNsmf8AAAAJ"
+  Steemit: "https://steemit.com/@gillesjacobs"
+  Diaspora*: "https://diasp.org/people/e414dd30162301360163047d7b62795e"
 
 
 # Select which share links to show in posts
@@ -118,10 +120,10 @@ url-pretty: "JacobsGill.es"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-116689495-1"
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "GTM-PC7WKB9"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
@@ -134,7 +136,7 @@ url-pretty: "JacobsGill.es"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+disqus: "jacobgill-es"
 
 # Facebook App ID
 # fb_app_id: ""
