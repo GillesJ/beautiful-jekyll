@@ -4,7 +4,7 @@ title: PGP 101 and keysigning
 subtitle: Step-by-step guide of PGP key generation, encrypting and signing.
 description: Step-by-step guide of PGP key generation, signing, encrypting and verifying.
 permalink: pgp-keysigning-for-newbies
-image: /img/pgpkeysigning.png
+image: /img/pgpkeysigning.jpg
 tags: [pgp, public key encryption, keysigning party, beginner, newline workshop]
 published: False
 ---
