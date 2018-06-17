@@ -4,7 +4,7 @@ title: SENTiVENT Text Mining for Economic News.
 subtitle: A layman's introduction to my PhD research project.
 description: My research project SENTiVENT investigates text mining and machine learning for economic news.
 permalink: sentivent
-image: /img/sentiventlogo.jpg
+image: /img/sentiventlogo.png
 tags: [SENTiVENT, machine learning, economic news, text mining, NLP, event extraction, sentiment analysis]
 published: true
 ---
