@@ -6,7 +6,7 @@ description: My research project SENTiVENT investigates text mining and machine 
 permalink: sentivent
 image: /img/sentiventlogo.jpg
 tags: [SENTiVENT, machine learning, economic news, text mining, NLP, event extraction, sentiment analysis]
-published: False
+published: True
 ---
 In this post I outline my PhD research in non-technical terms.
 I explain the SENTiVENT project's goals and challenges.
