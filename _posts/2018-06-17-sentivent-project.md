@@ -22,13 +22,15 @@ economic news text using the latest and greatest in machine learning.
 The SENTiVENT name comes from two of the artificial intelligence methods used to achieve this:
 SENTiment analysis and eVENT extraction.
 
+![SENTiVENT output]({{ "/img/sentiventoutputexample.jpg" | absolute_url }})
+
 # Event extraction
 Event extraction tries to automatically get a schematic overview of a real-world occurrence of a certain type from text.
 It summarizes an event and tells us who is involved in what event with which event properties.
 This overview shows the event type and all persons or groups of people that participate in the event.
 For example, if an article describes that one company bought another company it will find the parts of the text that talks about this event,
 assign it the type "Acquisition" and fill in the "Acquirer" and "Target" participant roles with the names of the companies.
-![Event extraction example]({{ "/img/eventextractionexample.jpg" | absolute_url }})
+![Event extraction example]({{ "/img/sentiventeventextractionexample.jpg" | absolute_url }})
 These event schema provides a description of what is discussed in the text.
 Automatically getting this information is valuable because it summarizes what is going on with a company, stock or market without a human having to read every single newspaper.
 
