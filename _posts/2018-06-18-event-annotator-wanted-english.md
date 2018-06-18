@@ -10,6 +10,8 @@ published: true
 redirect_from:
   - "/annotator/"
 ---
+Job opening for annotator student workers for economic events in the SENTiVENT project in [English](#english-job-posting-information) and [Dutch](#nederlands-vacature-informatie).
+
 #### English Job Posting Information
 # STUDENT WORKERS WANTED
 
