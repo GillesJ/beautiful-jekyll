@@ -13,7 +13,7 @@ redirect_from:
 Job opening for annotator student workers for economic events in the SENTiVENT project in [English](#english-job-posting-information) and [Dutch](#nederlands-vacature-informatie).
 
 #### English Job Posting Information
-# STUDENT WORKERS WANTED
+## STUDENT WORKERS WANTED
 
 The Language Technology research group is looking for motivated students to label English economic news articles.
 
@@ -48,7 +48,7 @@ Please contact Gilles Jacobs at GillesM.Jacobs@ugent.be
 ![LT3 Annotator Event English Flyer](/img/lt3annotatoreventenglish.png){:class="img-responsive"}
 
 #### Nederlands Vacature Informatie
-# JOBSTUDENTEN GEZOCHT
+## JOBSTUDENTEN GEZOCHT
 
 De onderzoeksgroep Taaltechnologie is op zoek naar gemotiveerde studenten voor het annoteren van Engelse economische nieuwsartikels.
 
