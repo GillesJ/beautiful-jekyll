@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Student Worker Annotator at LT3, UGent .
+title: Wanted: Annotator at LT3, UGent.
 subtitle: Job opening for annotator student workers for the SENTiVENT project.
 description: Job opening for annotator student workers for economic events in the SENTiVENT project (English and Dutch).
 permalink: event-annotator-job-english-economic-news
@@ -46,7 +46,7 @@ Please contact Gilles Jacobs at GillesM.Jacobs@ugent.be
 ![LT3 Annotator Event English Flyer](/img/lt3annotatoreventenglish.png){:class="img-responsive"}
 
 ## Nederlands Vacature Informatie
-#JOBSTUDENTEN GEZOCHT
+# JOBSTUDENTEN GEZOCHT
 
 De onderzoeksgroep Taaltechnologie is op zoek naar gemotiveerde studenten voor het annoteren van Engelse economische nieuwsartikels.
 
