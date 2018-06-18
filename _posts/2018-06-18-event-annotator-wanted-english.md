@@ -10,7 +10,7 @@ published: true
 redirect_from:
   - "/annotator/"
 ---
-## English Job Posting Information
+#### English Job Posting Information
 # STUDENT WORKERS WANTED
 
 The Language Technology research group is looking for motivated students to label English economic news articles.
@@ -45,7 +45,7 @@ Please contact Gilles Jacobs at GillesM.Jacobs@ugent.be
 
 ![LT3 Annotator Event English Flyer](/img/lt3annotatoreventenglish.png){:class="img-responsive"}
 
-## Nederlands Vacature Informatie
+#### Nederlands Vacature Informatie
 # JOBSTUDENTEN GEZOCHT
 
 De onderzoeksgroep Taaltechnologie is op zoek naar gemotiveerde studenten voor het annoteren van Engelse economische nieuwsartikels.
