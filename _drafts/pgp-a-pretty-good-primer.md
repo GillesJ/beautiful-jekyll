@@ -1,7 +1,7 @@
 ---
 layout: post
-title: PGP: A Pretty Good Primer
-subtitle: Step-by-step guide of PGP key generation, encrypting and signing.
+title: "PGP: A Pretty Good Primer"
+subtitle: "Step-by-step guide of PGP key generation, encrypting and signing."
 description: Step-by-step guide of PGP key generation, signing, encrypting and verifying.
 permalink: pgp-a-pretty-good-primer
 image: /img/pgpkeysigning.jpg
