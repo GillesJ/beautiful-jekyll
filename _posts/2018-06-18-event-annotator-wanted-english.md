@@ -29,7 +29,7 @@ Currently completing 3rd year bachelor or masters degree (any field).
 Broad knowledge of economic, financial or business domain/terminology is a plus!
 
 ### We offer:
-- Attractive hourly wages: 14.41 €/h bruto.
+- Attractive hourly wages: 12-14+ €/h bruto.
 - Flexible working hours.
 - Partial remote/home working possible.
 - Intellectually challenging work in a relaxed environment.
@@ -75,7 +75,7 @@ Groot-Brittanniëlaan 45
 9000 Gent
 
 ### Wij bieden:
-- Aantrekkelijk uurloon: 14.41 €/uur bruto.
+- Aantrekkelijk uurloon: 12-14+ €/uur bruto.
 - Flexibele werktijden.
 - Thuiswerk na training.
 - Intellectueel uitdagend werk in een ontspannen omgeving.
