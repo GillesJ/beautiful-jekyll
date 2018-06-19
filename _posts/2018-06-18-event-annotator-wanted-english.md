@@ -46,7 +46,7 @@ Groot-Brittanniëlaan 45
 ### INTERESTED? 
 Please contact Gilles Jacobs at GillesM.Jacobs@ugent.be
 
-![LT3 Annotator Event English Flyer](/img/lt3annotatoreventenglish.png){:class="img-responsive"}
+![LT3 Annotator Event English Flyer](/img/lt3annotatoreventenglish.jpg){:class="img-responsive"}
 
 #### Nederlands Vacature Informatie
 ## JOBSTUDENTEN GEZOCHT
@@ -84,4 +84,4 @@ Groot-Brittanniëlaan 45
 ### GEÏNTERESSEERD?
 Neem contact op met Gilles Jacobs op GillesM.Jacobs@ugent.be
 
-![LT3 Annotator Event Dutch Flyer](/img/lt3annotatoreventdutch.png){:class="img-responsive"}
+![LT3 Annotator Event Dutch Flyer](/img/lt3annotatoreventdutch.jpg){:class="img-responsive"}
