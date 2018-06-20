@@ -5,7 +5,7 @@ redirect_from:
   - "/about/"
   - "/info/"
 ---
-Gilles Jacobs is currently researching text mining technologies for financial applications at Ghent University. He works on artificially intelligent systems for extracting fact and opinion from economic news in the SENTiVENT project. Before that, he created state-of-the-art systems for sentiment analysis, automated social media moderation, and several text classification applications. If you have any useful data trapped in unstructured text, my bots will get it out.
+Gilles Jacobs is currently researching text mining technologies for financial applications at Ghent University and Solvay Business School/VUB. He works on artificially intelligent systems for extracting fact and opinion from economic news in the SENTiVENT project. Before that, he created state-of-the-art systems for sentiment analysis, automated social media moderation, and several text classification applications. If you have any useful data trapped in unstructured text, my bots will get it out.
 
 He takes personal interest in blockchain technologies such as smart contracts and decentralized governance.
 
