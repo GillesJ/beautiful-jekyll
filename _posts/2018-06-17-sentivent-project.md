@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SENTiVENT Text Mining for Economic News.
-subtitle: A layman's introduction to my PhD research project.
+subtitle: "A layman's introduction to my PhD research project."
 description: My research project SENTiVENT investigates text mining and machine learning for economic news.
 permalink: sentivent-project
 image: /img/sentiventlogo.jpg
@@ -30,7 +30,9 @@ It summarizes an event and tells us who is involved in what event with which eve
 This overview shows the event type and all persons or groups of people that participate in the event.
 For example, if an article describes that one company bought another company it will find the parts of the text that talks about this event,
 assign it the type "Acquisition" and fill in the "Acquirer" and "Target" participant roles with the names of the companies.
+<br/>
 ![Event extraction example](/img/sentiventeventextractionexample.png){:class="img-responsive"}
+<br/>
 These event schema provides a description of what is discussed in the text.
 Automatically getting this information is valuable because it summarizes what is going on with a company, stock or market without a human having to read every single newspaper.
 
