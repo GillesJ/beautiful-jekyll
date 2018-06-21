@@ -25,10 +25,11 @@ You will read preselected economic news articles (e.g., from Bloomberg) and anno
 Partial remote/home working is possible, but for some tasks on-site work is needed.
 
 ### Profile:
-Excellent command of English.
-You effectively process new information and you have good search skills to supplement lacking knowledge.
-Currently completing 3rd year bachelor or masters degree (any field).
-Broad knowledge of economic, financial or business domain/terminology is a plus!
+- Excellent command of English.
+- You effectively process new information and you have good search skills to supplement lacking knowledge.
+- Currently completing 3rd year bachelor or masters degree (any field).
+- You have a student statute for the duration of the working period.
+- Broad knowledge of economic, financial or business domain/terminology is a plus!
 
 ### We offer:
 - Attractive hourly wages: 12-14+ €/h bruto.
@@ -64,6 +65,7 @@ Werken van afstand/ thuis gedeeltelijk mogelijk.
 - Uitstekende beheersing van het Engels.
 - Kan efficiënt nieuwe informatie verwerken en zelfstandig aanvullen waar nodig.
 - 3e bachelorjaar of masterniveau (elke studie).
+- Je hebt een studentenstatuur gedurende de werkperiode.
 - Brede kennis van het economisch, financieel of zakelijk domein is een plus!
 
 ### Periode:
