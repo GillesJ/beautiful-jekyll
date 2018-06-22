@@ -1,0 +1,1 @@
+convert ".png" -strip -interlace JPEG -sampling-factor 4:2:0 -colorspace RGB -define jpeg:dct-method=float -quality 85 ".jpg"

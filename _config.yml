@@ -108,10 +108,10 @@ aboutme-social-links:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  google: false
-  linkedin: true
+  # twitter: true
+  # facebook: true
+  # google: false
+  # linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -120,10 +120,10 @@ url-pretty: "JacobsGill.es"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-116689495-1"
+# google_analytics: "UA-116689495-1"
 
 # Google Tag Manager ID
-gtm: "GTM-PC7WKB9"
+# gtm: "GTM-PC7WKB9"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
@@ -136,7 +136,7 @@ gtm: "GTM-PC7WKB9"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "jacobgill-es"
+# disqus: "jacobgill-es"
 
 # Facebook App ID
 # fb_app_id: ""
