@@ -14,6 +14,8 @@ redirect_from:
 Job opening for annotator student workers for economic events in the SENTiVENT project in [English](#english-job-posting-information) and [Dutch](#nederlands-vacature-informatie).
 The data annotation is part of the [SENTiVENT project on economic event extraction and sentiment analysis]({{ site.baseurl }}{% link _posts/2018-06-17-sentivent-project.md %}).
 
+{% include toc.html html=content %}
+
 #### English Job Posting Information
 ## STUDENT WORKERS WANTED
 
