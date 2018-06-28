@@ -49,6 +49,11 @@ Your output is remotely monitored through the annotation website.
 The annotator are to be in office for an initial week of training and at the end of the annotation phase.
 The final annotation is an adjudication phase were you discuss conflicting annotations with your colleague.
 
+## Payment
+Upon acceptance applicants will have to register at the [UGent Jobdienst](https://www.ugent.be/student/nl/meer-dan-studeren/jobdienst).
+You can find more payment information on the Jobdienst website.
+Hourly wages will be 14+ EUR/h.
+
 # Job postings
 ## Student Worker Wanted (EN)
 
