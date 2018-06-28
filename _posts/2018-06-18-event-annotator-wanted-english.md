@@ -85,7 +85,7 @@ Please contact Gilles Jacobs at GillesM.Jacobs@ugent.be
 
 ![LT3 Annotator Event English Flyer](/img/lt3annotatoreventenglish.jpg){:class="img-responsive"}
 
-## Jobstudenten Gezocht
+## Jobstudenten Gezocht (NL)
 
 De onderzoeksgroep Taaltechnologie is op zoek naar gemotiveerde studenten voor het annoteren van Engelse economische nieuwsartikels.
 
