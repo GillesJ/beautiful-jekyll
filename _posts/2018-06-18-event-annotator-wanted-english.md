@@ -50,7 +50,7 @@ The annotator are to be in office for an initial week of training and at the end
 The final annotation is an adjudication phase were you discuss conflicting annotations with your colleague.
 
 # Job postings
-## STUDENT WORKERS WANTED (EN)
+## Student Worker Wanted (EN)
 
 The Language Technology research group is looking for motivated students to label English economic news articles.
 
@@ -85,7 +85,7 @@ Please contact Gilles Jacobs at GillesM.Jacobs@ugent.be
 
 ![LT3 Annotator Event English Flyer](/img/lt3annotatoreventenglish.jpg){:class="img-responsive"}
 
-## JOBSTUDENTEN GEZOCHT
+## Jobstudenten Gezocht
 
 De onderzoeksgroep Taaltechnologie is op zoek naar gemotiveerde studenten voor het annoteren van Engelse economische nieuwsartikels.
 
