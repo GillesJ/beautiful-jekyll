@@ -24,8 +24,6 @@ You will also have to familiarize yourself with economic, financial and business
 Annotation is done redundantly: each text is annotated by two annotators independently.
 Subsequently conflicting annotations are resolved by discussion.
 
-![WebAnno Annotation Interface Example](/img/webannointerface.jpg){:class="img-responsive"}
-
 {% include image.html
             img="/img/webannointerface.jpg"
             title="WebAnno Interface Example"
