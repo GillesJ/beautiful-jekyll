@@ -11,7 +11,7 @@ published: true
 In this post I outline my PhD research in non-technical terms.
 I explain the SENTiVENT project's goals and challenges.
 
-![SENTiVENT logo](/img/sentiventlogotextnobackground.png){:class="img-responsive"}
+![SENTiVENT logo](/img/sentiventlogotextnobackground.jpg){:class="img-responsive"}
 
 # The SENTiVENT project
 In 2016, I wrote a research proposal to the Research Foundation Flanders.

@@ -1,1 +1,1 @@
-convert ".png" -resize 1280x720\> -strip -interlace JPEG -sampling-factor 4:2:0 -colorspace RGB -define jpeg:dct-method=float -quality 85 ".jpg"
+convert .png -background white -alpha remove -resize 1280x1280\> -strip -interlace JPEG -sampling-factor 4:2:0 -colorspace RGB -define jpeg:dct-method=float -quality 85 .jpg
