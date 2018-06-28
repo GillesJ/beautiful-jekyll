@@ -780,4 +780,9 @@ td.gutter {
     text-align: center;
     font-style: italic;
     font-size: 14px;
+    
+    .image-caption {
+        color: $grey-color;
+        margin-top: $spacing-unit / 3;
+    }
 }
