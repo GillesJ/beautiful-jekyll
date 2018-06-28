@@ -14,7 +14,7 @@ redirect_from:
 Job opening for annotator student workers for economic events in the SENTiVENT project in [English](#english-job-posting-information) and [Dutch](#nederlands-vacature-informatie).
 The data annotation is part of the [SENTiVENT project on economic event extraction and sentiment analysis]({{ site.baseurl }}{% link _posts/2018-06-17-sentivent-project.md %}).
 
-# More information on the task
+# Detailed job description
 You will be annotating economic event categories and their properties in business news articles.
 Detailed annotation instructions are given to annotators describing the steps and categories to annotate.
 We have a computer room for in-office work where you will be trained.
@@ -29,7 +29,7 @@ Please send your CV and a brief cover letter to GillesM.Jacobs@ugent.be.
 Also include the following information:
 - Your proficiency level of English with certificates/studies.
 - Your availability within the 01 August - 30 September period.
-- Whether you have student statute up until 30th of September.
+- Whether you have student statute in Belgium/EU up until 30th of September.
 - Whether you can come in-office to Ghent.
 - Any economics or finance qualifications.
 
