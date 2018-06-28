@@ -21,6 +21,8 @@ We have a computer room for in-office work where you will be trained.
 The annotation tool we use is WebAnno and is web-based: you only need a supported browser (Chrome or Edge) for remote working on your own computer.
 Understanding the guidelines and economic news articles requires an excellent grasp of English.
 You will also have to familiarize yourself with economic, financial and business terminology.
+Annotation is done redundantly: each text is annotated by two annotators independently.
+Subsequently conflicting annotations are resolved by discussion.
 
 ![WebAnno Annotation Interface Example](/img/webannointerface.jpg){:class="img-responsive"}
 
@@ -34,10 +36,10 @@ Also include the following information:
 - Any economics or finance qualifications.
 
 ## Daily working hours
-Annotating event categories is a cognitively challenging task which requires a lot of concentration and mental effort. We aim for 4 hour working days, but if we determine an annotator can handle more without diminishing quality, the daily working hours can be increased.
+Annotating event categories is a cognitively challenging task which requires a lot of concentration and mental effort. We aim for 4 hour working days. If we determine an annotator can handle more without diminishing quality, the daily working hours can be increased.
 
 ## Working period
- The estimated work required is for about 3+ weeks if we manage to recruit enough annotators. The announcement period was a broad indication, so we can find a period that overlaps for all candidate pairs. The duration of the annotation process also largely depends on the tempo and ability of the annotators and is difficult to accurately estimate.
+The estimated work required is for about 3+ weeks if we manage to recruit enough annotators. The period on the job posting was a taken broadly so we can find a period that overlaps for all candidate pairs. The duration of the annotation process also largely depends on the tempo and ability of the annotators and is difficult to accurately estimate.
 
 ## Remote working
 Remote working is possible when the annotator has proven they can work independently and has good grasp of the guidelines.
