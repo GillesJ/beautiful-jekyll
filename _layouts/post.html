@@ -32,7 +32,7 @@ layout: base
       {% endif %}
       
       <article role="main" class="blog-post">
-         {% include toc.html sanitize=true html=content h_min=1 h_max=2 class="toc__menu" %}
+         {% include toc.html sanitize=true html=content h_min=1 h_max=2 class="toc__menu" ordered=true %}
         {{ content }}
       </article>
 

@@ -788,3 +788,14 @@ td.gutter {
         margin-top: $spacing-unit / 3;
     }
 }
+
+.toc__menu {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #404040;
+    position: relative;
+    background-color: {{ site.page-col }};
+    border-left-style: solid;
+    border-color: #808080;
+    border-width: 5px;
+}
