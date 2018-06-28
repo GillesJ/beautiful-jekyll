@@ -25,7 +25,11 @@ Annotation is done redundantly: each text is annotated by two annotators indepen
 Subsequently conflicting annotations are resolved by discussion.
 
 ![WebAnno Annotation Interface Example](/img/webannointerface.jpg){:class="img-responsive"}
-{% include image.html file="/img/webannointerface.jpg" description="WebAnno annotation interface example." %}
+
+{% include image.html
+            img="/img/webannointerface.jpg"
+            title="WebAnno Interface Example"
+            caption="Example of the annotation interface." %}
 
 ## Applying
 Please send your CV and a brief cover letter to GillesM.Jacobs@ugent.be.
