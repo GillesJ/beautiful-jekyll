@@ -6564,14 +6564,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
-.image-wrapper {
-    text-align: center;
-
-    .image-caption {
-        font-style: italic;
-        font-size: 12px;
-        color: $grey-color;
-        margin-top: $spacing-unit / 5;
-    }
-}
