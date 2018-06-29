@@ -36,7 +36,6 @@ Also include the following information:
 - Your availability within the 01 August - 30 September period.
 - Whether you have student statute in Belgium/EU up until 30th of September.
 - Whether you can come in-office to Ghent.
-- Any economics or finance qualifications.
 
 ## Daily working hours
 Annotating event categories is a cognitively challenging task which requires a lot of concentration and mental effort. We aim for 4 hour working days. If we determine an annotator can handle more without diminishing quality, the daily working hours can be increased.
