@@ -799,3 +799,9 @@ td.gutter {
     border-color: #808080;
     border-width: 5px;
 }
+
+ul.social-links {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
