@@ -25,6 +25,6 @@ This post is mainly for sharing the presentation slides, but here is an impressi
 The slides are for download [here][1] and you can download the long paper [here](https://aclanthology.info/papers/W18-3101/w18-3101).
 Here are the slides as embedded pdf:
 
-<iframe src="https://drive.google.com/file/d/1JfzZzCFarqiSBJSzzprtdqYINKWgd1AS/preview" width="100%" height="720"></iframe>
+<iframe src="https://drive.google.com/file/d/1JfzZzCFarqiSBJSzzprtdqYINKWgd1AS/preview" width="100%" height="480"></iframe>
 
 [1]:{{ site.url }}/download/econlp-acl18-economic-event-detection-presentation.pdf
