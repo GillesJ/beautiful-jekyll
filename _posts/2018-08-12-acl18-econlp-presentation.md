@@ -24,4 +24,4 @@ This post is mainly for sharing the presentation slides, but here is an impressi
 ## Slides
 Here are the slides as embedded pdf:
 
-<iframe src="https://drive.google.com/file/d/1JfzZzCFarqiSBJSzzprtdqYINKWgd1AS/preview" width="720" height="1280"></iframe>
+<iframe src="https://drive.google.com/file/d/1JfzZzCFarqiSBJSzzprtdqYINKWgd1AS/preview" width="100%" height="100%"></iframe>
