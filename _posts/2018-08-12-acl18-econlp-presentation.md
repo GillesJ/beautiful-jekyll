@@ -19,9 +19,9 @@ This post is mainly for sharing the presentation slides, but here is an impressi
 {% include image.html
             img="/img/gilles-jacobs-econlp-acl18.jpg"
             title="Gilles Jacobs at ECONLP, ACL18"
-            caption="Example output of the proposed SENTiVENT system." %}
+            caption="Like a duck takes to water." %}
 
 ## Slides
 Here are the slides as embedded pdf:
 
-<object data="_data/econlp-acl18-economic-event-detection-presentation.pdf" width="1000" height="1000" type='application/pdf'/>
+<iframe src="https://drive.google.com/file/d/1JfzZzCFarqiSBJSzzprtdqYINKWgd1AS/preview" width="720" height="1280"></iframe>
