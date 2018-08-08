@@ -8,10 +8,12 @@ image: /img/gilles-jacobs-econlp-acl18.jpg
 tags: [event detection, economics, acl, econlp, SENTiVENT, machine learning, economic news, text mining, NLP, event extraction]
 published: true
 ---
-I went to ACL18, one of the largest NLP conferences last week.
+I went to ACL18, one of the largest NLP conferences in the world last week.
 I present my work on economic event detection in business news at the first Workshop on Economics and NLP.
-Overall, ACL18 was an inspiring conference and networking experience.
+Overall, ACL18 was an inspiring conference and networking experience despite my jetlag.
 I met a lot of skilled people and managed to pick quite a few techniques and ideas to adapt for my own purposes.
+The feedback I received on my work (and career options) was extremely valuable and makes the whole trip worth it.
+Exploring Melbourne is just an added bonus.
 
 This post is mainly for sharing the presentation slides, but here is an impression of my presentation as an extra:
 
