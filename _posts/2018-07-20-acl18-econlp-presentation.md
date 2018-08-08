@@ -10,8 +10,7 @@ published: true
 ---
 I went to ACL18, one of the largest NLP conferences last week.
 I present my work on economic event detection in business news at the first Workshop on Economics and NLP.
-
-ACL18 was overall an inspiring conference and networking experience.
+Overall, ACL18 was an inspiring conference and networking experience.
 I met a lot of skilled people and managed to pick quite a few techniques and ideas to adapt for my own purposes.
 
 This post is mainly for sharing the presentation slides, but here is an impression of my presentation as an extra:
