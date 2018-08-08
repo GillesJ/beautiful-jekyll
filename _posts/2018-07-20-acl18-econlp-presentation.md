@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ACL18 ECONLP Presentation.
+title: Presenting at the ACL18 conference.
 subtitle: "My economic event detection presentation at the Workshop on Economics and NLP."
 description: My presentation slides on economic event detection at the Workshop on Economics and NLP at ACL18, Melbourne, AUS.
 permalink: acl18-econlp-presentation
