@@ -4,7 +4,7 @@ title: ACL18 ECONLP Presentation.
 subtitle: "My economic event detection presentation at the Workshop on Economics and NLP."
 description: My presentation slides on economic event detection at the Workshop on Economics and NLP at ACL18, Melbourne, AUS.
 permalink: acl18-econlp-presentation
-image: /img/gilles-jacobs-econlp-acl18.jpg
+image: /img/gilles-jacobs-econlp-acl18-icon.jpg
 tags: [event detection, economics, acl, econlp, SENTiVENT, machine learning, economic news, text mining, NLP, event extraction]
 published: true
 ---
