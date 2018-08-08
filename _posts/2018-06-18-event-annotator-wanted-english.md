@@ -14,7 +14,7 @@ redirect_from:
 Job opening for annotator student workers for economic events in the SENTiVENT project in English news articles.
 The data annotation is part of the [SENTiVENT project on economic event extraction and sentiment analysis]({{ site.baseurl }}{% link _posts/2018-06-17-sentivent-project.md %}).
 
-# Detailed job description
+# Detailed job description:
 You will be annotating economic event categories and their properties in business news articles.
 Detailed annotation instructions are given to annotators describing the steps and categories to annotate.
 We have a computer room for in-office work where you will be trained.
@@ -29,7 +29,7 @@ Subsequently conflicting annotations are resolved by discussion.
             title="WebAnno Interface Example"
             caption="Example of the annotation interface." %}
 
-## Applying
+## Applying:
 Please send your CV and a brief cover letter to **GillesM.Jacobs@ugent.be**.
 Also include the following information:
 - Your proficiency level of English with certificates/studies.
@@ -37,13 +37,13 @@ Also include the following information:
 - Whether you have student statute in Belgium/EU up until 30th of September.
 - Whether you can come in-office to Ghent.
 
-## Daily working hours
+## Daily working hours:
 Annotating event categories is a cognitively challenging task which requires a lot of concentration and mental effort. We aim for 4 hour working days. If we determine an annotator can handle more without diminishing quality, the daily working hours can be increased.
 
-## Working period
+## Working period:
 The estimated work required is for about 3+ weeks if we manage to recruit enough annotators. The period on the job posting was a taken broadly so we can find a period that overlaps for all candidate pairs. The duration of the annotation process also largely depends on the tempo and ability of the annotators and is difficult to accurately estimate.
 
-## Remote working
+## Remote working:
 Remote working is possible when the annotator has proven they can work independently and has good grasp of the guidelines.
 We can not guarantee remote working, but if the quality of work is sufficient the annotator is allowed to work remotely.
 Your output is remotely monitored through the annotation website.
@@ -51,13 +51,13 @@ Your output is remotely monitored through the annotation website.
 The annotator are to be in office for an initial week of training and at the end of the annotation phase.
 The final annotation is an adjudication phase were you discuss conflicting annotations with your colleague.
 
-## Payment and legal
+## Payment and legal:
 Upon acceptance applicants will have to register at the [UGent Jobdienst](https://www.ugent.be/student/nl/meer-dan-studeren/jobdienst).
 You can find more payment and legal information on the Jobdienst website.
 Hourly wages will be 14+ EUR/h bruto.
 You will be given a student work contract via the UGent Jobdienst.
 
-# Job postings
+# Job postings:
 ## Student Worker Wanted (EN)
 
 The Language Technology research group is looking for motivated students to label English economic news articles.
@@ -93,7 +93,7 @@ Please contact Gilles Jacobs at GillesM.Jacobs@ugent.be
 
 ![LT3 Annotator Event English Flyer](/img/lt3annotatoreventenglish.jpg){:class="img-responsive"}
 
-## Jobstudenten Gezocht (NL)
+## Jobstudenten Gezocht (NL):
 
 De onderzoeksgroep Taaltechnologie is op zoek naar gemotiveerde studenten voor het annoteren van Engelse economische nieuwsartikels.
 
