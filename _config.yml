@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: "Above the 10-Fold: Gilles Jacobs' Blog"
+title: "Above the 10-Fold"
 
 # Short description of your site
-description: "Machine learning, natural language processing and other handicraft."
+description: "Gilles Jacobs' Blog on Machine learning, natural language processing and other handicraft."
 
 # --- Navigation bar options --- #
 
