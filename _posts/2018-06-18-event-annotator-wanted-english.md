@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Wanted Annotator at LT3, UGent.
 subtitle: Job opening for annotator student workers for the SENTiVENT project.
 description: Job opening for annotator student workers for economic events in the SENTiVENT project (English and Dutch).
