@@ -14,6 +14,8 @@ I went to ACL18, one of the largest NLP conferences in the world last week.
 Blogging conference highlights is [Sebastian Ruder's thing](http://ruder.io/acl-2018-highlights/), so I thought I would give a try too.
 The main difference with my post being the likelihood of getting read, which is much higher for Sebastian.
 I presented [my work on economic event detection in business news][1] at the first Workshop on Economics and NLP.
+The work is part of [my PhD project SENTiVENT][3] for information extraction for financial applications.
+
 Overall, ACL18 was an inspiring conference and networking experience despite my jetlag.
 I met a lot of skilled people and managed to pick quite a few techniques and ideas to adapt for my own purposes.
 The feedback I received on my work (and career options) was extremely valuable and makes the whole trip worth it.
@@ -34,3 +36,4 @@ Here are the slides as embedded pdf:
 
 [1]:https://aclanthology.info/papers/W18-3101/w18-3101
 [2]:{{ site.url }}/download/econlp-acl18-economic-event-detection-presentation.pdf
+[3]:{% link _posts/2018-06-17-sentivent-project.md %}
