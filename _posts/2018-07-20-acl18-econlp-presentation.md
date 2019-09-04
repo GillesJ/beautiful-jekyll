@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Presenting at the ACL18 conference.
+title: Presenting Economic Event Detection @ ACL18.
 subtitle: "My economic event detection presentation at the Workshop on Economics and NLP."
 description: My presentation slides on economic event detection at the Workshop on Economics and NLP at ACL18, Melbourne, AUS.
 permalink: acl18-econlp-presentation
@@ -9,7 +9,7 @@ tags: [event detection, economics, acl, econlp, SENTiVENT, machine learning, eco
 published: true
 ---
 
-# Thoughts on ACL18:
+# Thoughts on ACL18
 I went to ACL18, one of the largest NLP conferences in the world last week.
 Blogging conference highlights is [Sebastian Ruder's thing](http://ruder.io/acl-2018-highlights/), so I thought I would give a try too.
 The main difference with my post being the likelihood of getting read, which is much higher for Sebastian.
@@ -28,7 +28,7 @@ This post is mainly for sharing the presentation slides, but here is an impressi
             title="Gilles Jacobs at ECONLP, ACL18"
             caption="@ work" %}
 
-# Long paper and slides:
+# Long paper and slides
 The slides are for download [here][2] and you can download the long paper [here][1].
 Here are the slides as embedded pdf:
 

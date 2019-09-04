@@ -13,7 +13,7 @@ I explain the SENTiVENT project's goals and challenges.
 
 ![SENTiVENT logo](/img/sentiventlogotextnobackground.jpg){:class="img-responsive"}
 
-# The SENTiVENT project:
+# The SENTiVENT project
 In 2016, I wrote a research proposal to the Research Foundation Flanders.
 In 2017, the PhD research project was granted and I started research at Ghent
 University and Solvay Business School/VUB.
@@ -27,7 +27,7 @@ SENTiment analysis and eVENT extraction.
             title="SENTiVENT example output"
             caption="Example output of the proposed SENTiVENT system." %}
 
-## Event extraction:
+## Event extraction
 Event extraction tries to automatically get a schematic overview of a real-world occurrence of a certain type from text.
 It summarizes an event and tells us who is involved in what event with which event properties.
 This overview shows the event type and all persons or groups of people that participate in the event.
@@ -42,7 +42,7 @@ assign it the type "Acquisition" and fill in the "Acquirer" and "Target" partici
 These event schema provides a description of what is discussed in the text.
 Automatically getting this information is valuable because it summarizes what is going on with a company, stock or market without a human having to read every single newspaper.
 
-## Sentiment analysis:
+## Sentiment analysis
 In economic news, journalists give objective information on recent events while also discussing the implications of events in a subjective manner.
 Sentiment analysis tries to automatically determine if the opinions expressed in a text are positive or negative.
 When someone writes "Enchanting comedy with a nice sense of whimsy." about a movie, the sentiment analysis system marks the review as positive.
@@ -57,5 +57,5 @@ I also want to go even further than just pointing to the positive, negative or n
 Wouldn't it be cool to know exactly which opinion is expressed about what part of a company or event?
 This is called aspect-based sentiment analysis and automatically gives us an overview about what negative or positive opinion is expressed about what part of an event or entity.
 
-# Applications:
+# Applications
 What is all this technology useful for?
