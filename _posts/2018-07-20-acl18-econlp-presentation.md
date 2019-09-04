@@ -8,8 +8,6 @@ image: /img/gilles-jacobs-econlp-acl18-icon.jpg
 tags: [event detection, economics, acl, econlp, SENTiVENT, machine learning, economic news, text mining, NLP, event extraction]
 published: true
 ---
-
-# Thoughts on ACL18
 I went to ACL18, one of the largest NLP conferences in the world last week.
 Blogging conference highlights is [Sebastian Ruder's thing](http://ruder.io/acl-2018-highlights/), so I thought I would give a try too.
 The main difference with my post being the likelihood of getting read, which is much higher for Sebastian.

@@ -8,7 +8,6 @@ image: /img/gilles-jacobs-atila-2018-icon.jpg
 tags: [conference, atila, 2018, ghent, sentivent]
 published: true
 ---
-# Announcing an Economic Event Dataset @ ATILA18
 After helping setup the venue, I presented at ATILA 2018 (6th December) in Ghent.
 I presented [previous results on economic event detection in company-specific news][1] here as well as *my newly created gold standard dataset for Economic Event Extraction*.
 
