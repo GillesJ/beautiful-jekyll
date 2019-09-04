@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Presenting at ATILA '18'
-subtitle: "Presenting SENTiVENT research at ATILA"
+title: Presenting at ATILA 18
+subtitle: "Presenting SENTiVENT research at ATILA 2018"
 description: My presentation slides on economic event detection at ATILA 2018.
 permalink: presenting-atila18
 image: /img/gilles-jacobs-atila-2018-icon.jpg
@@ -19,11 +19,13 @@ The work is part of [my PhD project SENTiVENT][3] for information extraction for
 This post is mainly for sharing the presentation slides.
 
 {% include image.html
-            img="/img/gilles-jacobs-atila18-opt.jpg"
+            img="/img/gilles-jacobs-atila-2018-opt.jpg"
             title="Gilles Jacobs at ATILA18"
             caption="Presenting the latest goodness" %}
 
-# Slides:
+
+
+# Slides
 The slides are for download [here][2] and you can download the long paper with previous research [here][1].
 Here are the slides as embedded pdf:
 
