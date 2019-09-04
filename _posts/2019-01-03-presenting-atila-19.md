@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Presenting at ATILA 18
+title: New Economic Event Dataset at ATILA 18
 subtitle: "Presenting SENTiVENT research at ATILA 2018"
 description: My presentation slides on economic event detection at ATILA 2018.
 permalink: presenting-atila18
@@ -8,7 +8,7 @@ image: /img/gilles-jacobs-atila-2018-icon.jpg
 tags: [conference, atila, 2018, ghent, sentivent]
 published: true
 ---
-# ATILA 2018 and New Economic Event Dataset
+# New Economic Event Dataset and ATILA 2018
 After helping setup the venue, I presented at ATILA 2018 (6th December) in Ghent.
 I presented [my previous work on economic event detection in business news][1] here as well as *the newly created gold standard dataset for Economic Event Extraction*.
 
