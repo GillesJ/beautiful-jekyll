@@ -4,7 +4,7 @@ title: Presenting at ATILA '18'
 subtitle: "Presenting SENTiVENT research at ATILA"
 description: My presentation slides on economic event detection at ATILA 2018.
 permalink: presenting-atila18
-image: /img/gilles-jacobs-econlp-acl18-icon.jpg
+image: /img/gilles-jacobs-atila-2018-icon.jpg
 tags: [conference, atila, 2018, ghent, sentivent]
 published: true
 ---
