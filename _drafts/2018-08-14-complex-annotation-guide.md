@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Complex annotation for supervised machine learning: a practical guide.
-subtitle: "A practical guide to dataset creation for supervised machine learning."
+title: "Cost⇩ Kappa⇧: Guide to annotation for supervised machine learning."
+subtitle: "A practical guide to dataset creation and annotation projects."
 description: A time- and cost-saving practical guide to dataset creation.
 permalink: complex-annotation-guide
 image: /img/gilles-jacobs-econlp-acl18-icon.jpg
