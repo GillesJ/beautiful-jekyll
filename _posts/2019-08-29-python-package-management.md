@@ -4,7 +4,7 @@ title: "Tame the Snake: Python Package Management"
 subtitle: "Best practices for managing Python modules and virtual environment."
 description: Modern solutions to untangling your Python modules and environments. Pipenv + pyenv + pipx = awesome.
 permalink: python-package-management
-image: /img/snake-charmer.jpg
+image: /img/snake-charmer-icon.jpg
 tags: [python, environment, package, module, management, tools, developper]
 redirect_from:
   - "/tame-the-snake"
