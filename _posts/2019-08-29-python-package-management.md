@@ -71,43 +71,44 @@ It is not a virtual environment manager. We have Pipenv for that.
 **Installation:**
 
 Pyenv installation is fairly easy and well-documented.
-- Linux: to install pyenv use [the automated installer](https://github.com/pyenv/pyenv-installer) or follow [the manual installation instructions on Github](https://github.com/pyenv/pyenv#basic-github-checkout).
+- **Linux**: to install pyenv use [the automated installer](https://github.com/pyenv/pyenv-installer) or follow [the manual installation instructions on Github](https://github.com/pyenv/pyenv#basic-github-checkout).
 
   ```
-  > curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+  $ curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
   ```
   The installer will output some configuration code at the end that needs to be added to your shell’s rc file:
   ```
-  > #ensure the following is in your ~/.<SHELL>rc (.bashrc, .zshrc, .kshrc)export PATH="$HOME/.pyenv/bin:$PATH"
-  > eval "$(pyenv init -)"
-  > eval "$(pyenv virtualenv-init -)"
-  > export PYENV_ROOT="$HOME/.pyenv" # needed by pipenv
+  $ #ensure the following is in your ~/.<SHELL>rc (.bashrc, .zshrc, .kshrc)export PATH="$HOME/.pyenv/bin:$PATH"
+  $ eval "$(pyenv init -)"
+  $ eval "$(pyenv virtualenv-init -)"
+  $ export PYENV_ROOT="$HOME/.pyenv" # needed by pipenv
   ```
   Finally, refresh your shell:
   ```
-  > source ~/.<SHELL>rc
+  $ source ~/.<SHELL>rc
   ```
-- Windows: Use [the Pyenv-win fork](https://github.com/pyenv-win/pyenv-win) and follow [the installation instructions](https://github.com/pyenv-win/pyenv-win#installation)
-- macOS: [install via Homebrew](https://github.com/pyenv/pyenv#homebrew-on-macos)
+- **Windows**: Use [the Pyenv-win fork](https://github.com/pyenv-win/pyenv-win) and follow [the installation instructions](https://github.com/pyenv-win/pyenv-win#installation)
+- **macOS**: [install via Homebrew](https://github.com/pyenv/pyenv#homebrew-on-macos)
 
   ```
-  > brew update
-  > brew install pyenv
+  $ brew update
+  $ brew install pyenv
   ```
 
-**Usage**
+**Post-installation actions**
 
 Once pyenv is installed can check which Python interpreters are already on the system:
 
 ```
-> pyenv versions
+$ pyenv versions
 system
 ```
-If your output only says `system`, only the default pre-installed Python version of your system is installed.
+If your output only says `system`, only the default pre-installed Python version of your OS is installed.
+
 Now check out all Python interpreter versions that are at your fingertips:
 
 ```
-> pyenv install --list
+$ pyenv install --list
 Available versions:
   2.1.3
   2.2.3
@@ -120,18 +121,64 @@ To use any of these version of Python, you must first build and install them.
 I suggest you install the latest version (at time of writing this is 3.8.0):
 
 ```
-> pyenv install 3.8.0
+$ pyenv install 3.8.0
 ```
 Now install a global version of Python that is going to be used system-wide.
 ```
-pyenv global 3.8.0
+$ pyenv global 3.8.0
 ```
 
 Your operating system probably comes with a preinstalled version of Python which you can now never use again or even remove.
 
+*Note: If a new Python version is released and you do not see it in `pyenv install --list`, you need to update pyenv with `pyenv update`.*
+
 # Pipenv
+[Pipenv]() fetches and installs Python packages much like `pip`.
+Pipenv also handles the creation of virtual environments.
+In this sense, it puts together `pip` and `virtualenv` functionality in one user-friendly manager.
+
+It specifies a project-specific `Pipfile` that contains the exact module versions and Python requirements.
+This file is similar but superior to your old `requirements.txt` file because it contains more information and auto-generates a `Pipfile.lock` to avoid potential conflicts and ambiguities.
+The `Pipfile.lock` does two things:
+1. Provides good security by keeping a hash of each package installed.
+2. Pins the versions of all dependencies and sub-dependencies, giving you replicable environments.
+
+This avoids nasty situations like when you share a project with your colleague and their version of a library doesn't match so the code does not run.
+Simply call `pipenv install` in a project folder containing a Pipfile and your dependencies and virtual environment are ready to go.
+
+Pipenv consists of two main components:
+1. **An installation mode** `pipenv install` for installing packages.
+2. **A runtime mode** `pipenv shell` and `pipenv run` for activating virtual environments and integrating the dependencies, and running a command in the environment.
+
+**Installation:**
+There are several options for OS-specific installation described in [the Pipenv documentation](https://pipenv-fork.readthedocs.io/en/latest/install.html#installing-pipenv).
+We choose for the "pragmatic" installation using our global Python pip:
+
+```
+$ pip install --user pipenv
+```
 
 # Pipx
+Pipx solves the issue of installing and running Python applications.
+Python applications are pieces of end-user software written in Python.
+They are often fully-fledged command-line tools such as `black`, `cookiecutter`, `scrapy`, `glances`, or the ever popular `youtube-dl`.
+
+These are often Python modules that you want to be available to the user globally.
+They are not dependencies in a project, so using Pipenv to manage them is ill-advised.
+You want to update these packages from time-to-time as their security and functionality improves.
+
+Pipx is a tool to help you install and run end-user applications written in Python.
+Pipx is not a tool for development or publishing of your code -- it's only for consuming already published packages.
+
+Like pipenv it has two main components:
+1. **An installation mode**: Cleanly install, list, upgrade, and uninstall packages globally and in an isolated environment with the `pipx install PACKAGE` command.
+2.  **A runtime mode**: Run the latest version of a Python application in a temporary environment with the `pipx run` command.
+
+**Installation**
+```
+$ pip install --user pipx
+$ pipx ensurepath
+```
 
 # New Project Workflow
 
