@@ -4,7 +4,7 @@ title: "Tame the Snake: Python Package Management"
 subtitle: "Best practices for managing Python modules and virtual environment."
 description: Modern solutions to untangling your Python modules and environments. Pipenv + pyenv + pipx = awesome.
 permalink: python-package-management
-image: /img/python-environment.png
+image: /img/snake-charmer.jpg
 tags: [python, environment, package, module, management, tools, developper]
 redirect_from:
   - "/tame-the-snake"
@@ -36,12 +36,13 @@ The approach should provide the following:
 - Distinguish project environments vs. global tools: Separate project-based virtual environments from Python command-line tools.
 - Document project requirements unambiguously: Use a clear and non-ambiguous dependency graph to avoid version conflicts. This is especially handy in setting up existing projects.
 
-While a lot of ink has flowed on Python development tools, many older blog [posts](https://opensource.com/article/19/4/managing-python-packages) contain irrelevant information:
-- [Pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper) has been overtaken by pipenv, which offers a clean and powerful solution to library module management.
-- or they do not tackle globally installed Python command-line tools which cause confusion with multiple concurrent python versions.
+While a lot of ink has flowed on Python development tools, many older blog [posts](https://opensource.com/article/19/4/managing-python-packages) contain out-dated information:
+[Pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper) is often recommended.
+But it has been overtaken by pipenv, which offers a cleaner installation and more user-friendly and powerful solution to environment and module management.
+Many older post also do not tackle globally installed Python command-line tools which cause confusion with multiple concurrent Python versions.
 
 # The Solution
-Sadly, there is not one tool that integrate our desired requirements well.
+Sadly, there is not one tool that integrates our desired requirements to a satisfactory level.
 In vain of [the Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) -"Do One Thing and Do It Well"- we pick one tool to handle each aspect of our ideal workflow.
 
 Pyenv, Pipenv, and Pipx meet and excede our requirements and are both mature and actively supported by the community.
@@ -63,6 +64,40 @@ It allows for:
 - Setting a system-wide Python version on a per-user basis.
 
 It supports the default CPython interpreter as well as pypy, anaconda, jython, micropython, etc.
+
+Pyenv excells at handling different Python versions, but don't be fooled by its name:
+It is not a virtual environment manager. We have Pipenv for that.
+
+Installation:
+Pyenv installation is fairly easy and well-documented.
+- Linux: to install pyenv use [the automated installer](https://github.com/pyenv/pyenv-installer) or follow [the manual installation instructions on Github](https://github.com/pyenv/pyenv#basic-github-checkout).
+  ```
+  curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+  ```
+  The installer will output some configuration code at the end that needs to be added to your shell’s rc file:
+  ```
+  #ensure the following is in your ~/.<SHELL>rc (.bashrc, .zshrc, .kshrc)export PATH="$HOME/.pyenv/bin:$PATH"
+  eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
+  export PYENV_ROOT="$HOME/.pyenv" # needed by pipenv
+  ```
+  Finally, refresh your shell:
+  ```
+  source ~/.<SHELL>rc
+  ```
+- Windows: Use [the Pyenv-win fork](https://github.com/pyenv-win/pyenv-win) and follow [the installation instructions](https://github.com/pyenv-win/pyenv-win#installation)
+- macOS: [install via Homebrew](https://github.com/pyenv/pyenv#homebrew-on-macos)
+  ```
+  $ brew update
+  $ brew install pyenv
+  ```
+
+Once pyenv is installed you should check out all Python interpreter versions that are at your fingertips:
+
+```
+pyenv install --list
+```
+
 
 
 # Pipenv
