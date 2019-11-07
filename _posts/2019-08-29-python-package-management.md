@@ -31,10 +31,10 @@ Virtual environment management was not user-friendly
 Here I share my best practices for handling multiple projects with their own environments in Python.
 
 The approach should provide the following:
-- Ease-of-use: Simple creation of virtual environments that is cross-platform, without hacky installations for tools or barely documented scripts, and installs modules straight from Pypi pip or Github repos. Easy management of packages and dependencies.
-- Install and use different Python versions: Many developers -myself included- have to work on Python 2 due to legacy code, but also want to use the latest-and-greatest in new projects. To keep the system clean, this requires a manager for Python interpreter versions
-- Distinguish project environments vs. global tools: Separate project-based virtual environments from Python command-line tools.
-- Document project requirements unambiguously: Use a clear and non-ambiguous dependency graph to avoid version conflicts. This is especially handy in setting up existing projects.
+- **Ease-of-use**: Simple creation of virtual environments that is cross-platform, without hacky installations for tools or barely documented scripts, and installs modules straight from Pypi pip or Github repos. Easy management of packages and dependencies.
+- Install and use **different Python versions**: Many developers -myself included- have to work on Python 2 due to legacy code, but also want to use the latest-and-greatest in new projects. To keep the system clean, this requires a manager for Python interpreter versions
+- Distinguish **project environments vs. global tools**: Separate project-based virtual environments from Python command-line tools.
+- **Document project requirements** unambiguously: Use a clear and non-ambiguous dependency graph to avoid version conflicts. This is especially handy in setting up existing projects.
 
 While a lot of ink has flowed on Python development tools, [many](https://amaral.northwestern.edu/resources/guides/pyenv-tutorial) blog [posts](https://opensource.com/article/19/4/managing-python-packages) contain out-dated information:
 [Pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper) is often recommended.
@@ -128,7 +128,6 @@ pyenv global 3.8.0
 ```
 
 Your operating system probably comes with a preinstalled version of Python which you can now never use again or even remove.
-
 
 # Pipenv
 
