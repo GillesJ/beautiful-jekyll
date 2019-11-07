@@ -36,7 +36,7 @@ The approach should provide the following:
 - Distinguish project environments vs. global tools: Separate project-based virtual environments from Python command-line tools.
 - Document project requirements unambiguously: Use a clear and non-ambiguous dependency graph to avoid version conflicts. This is especially handy in setting up existing projects.
 
-While a lot of ink has flowed on Python development tools, many older blog [posts](https://opensource.com/article/19/4/managing-python-packages) contain out-dated information:
+While a lot of ink has flowed on Python development tools, [many](https://amaral.northwestern.edu/resources/guides/pyenv-tutorial) blog [posts](https://opensource.com/article/19/4/managing-python-packages) contain out-dated information:
 [Pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper) is often recommended.
 But it has been overtaken by pipenv, which offers a cleaner installation and more user-friendly and powerful solution to environment and module management.
 Many older post also do not tackle globally installed Python command-line tools which cause confusion with multiple concurrent Python versions.
@@ -68,36 +68,66 @@ It supports the default CPython interpreter as well as pypy, anaconda, jython, m
 Pyenv excells at handling different Python versions, but don't be fooled by its name:
 It is not a virtual environment manager. We have Pipenv for that.
 
-Installation:
+**Installation:**
+
 Pyenv installation is fairly easy and well-documented.
 - Linux: to install pyenv use [the automated installer](https://github.com/pyenv/pyenv-installer) or follow [the manual installation instructions on Github](https://github.com/pyenv/pyenv#basic-github-checkout).
+
   ```
-  curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+  > curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
   ```
   The installer will output some configuration code at the end that needs to be added to your shell’s rc file:
   ```
-  #ensure the following is in your ~/.<SHELL>rc (.bashrc, .zshrc, .kshrc)export PATH="$HOME/.pyenv/bin:$PATH"
-  eval "$(pyenv init -)"
-  eval "$(pyenv virtualenv-init -)"
-  export PYENV_ROOT="$HOME/.pyenv" # needed by pipenv
+  > #ensure the following is in your ~/.<SHELL>rc (.bashrc, .zshrc, .kshrc)export PATH="$HOME/.pyenv/bin:$PATH"
+  > eval "$(pyenv init -)"
+  > eval "$(pyenv virtualenv-init -)"
+  > export PYENV_ROOT="$HOME/.pyenv" # needed by pipenv
   ```
   Finally, refresh your shell:
   ```
-  source ~/.<SHELL>rc
+  > source ~/.<SHELL>rc
   ```
 - Windows: Use [the Pyenv-win fork](https://github.com/pyenv-win/pyenv-win) and follow [the installation instructions](https://github.com/pyenv-win/pyenv-win#installation)
 - macOS: [install via Homebrew](https://github.com/pyenv/pyenv#homebrew-on-macos)
+
   ```
-  $ brew update
-  $ brew install pyenv
+  > brew update
+  > brew install pyenv
   ```
 
-Once pyenv is installed you should check out all Python interpreter versions that are at your fingertips:
+**Usage**
+
+Once pyenv is installed can check which Python interpreters are already on the system:
 
 ```
-pyenv install --list
+> pyenv versions
+system
+```
+If your output only says `system`, only the default pre-installed Python version of your system is installed.
+Now check out all Python interpreter versions that are at your fingertips:
+
+```
+> pyenv install --list
+Available versions:
+  2.1.3
+  2.2.3
+...
+  stackless-3.4.7
+  stackless-3.5.4
+
+```
+To use any of these version of Python, you must first build and install them.
+I suggest you install the latest version (at time of writing this is 3.8.0):
+
+```
+> pyenv install 3.8.0
+```
+Now install a global version of Python that is going to be used system-wide.
+```
+pyenv global 3.8.0
 ```
 
+Your operating system probably comes with a preinstalled version of Python which you can now never use again or even remove.
 
 
 # Pipenv
