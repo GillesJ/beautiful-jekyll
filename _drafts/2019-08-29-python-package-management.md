@@ -6,7 +6,7 @@ description: Modern solutions to untangling your Python modules and environments
 permalink: python-package-management
 image: /img/python-environment.png
 tags: [python, environment, package, module, management, tools, developper]
-published: false
+published: true
 ---
 In this post I describe the tools needed for a clean and manageable Python development environment. Messy dependencies, mixed module versions and unknown requirements are a thing of the past.
 
