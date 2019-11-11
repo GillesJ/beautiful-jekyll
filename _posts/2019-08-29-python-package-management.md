@@ -73,24 +73,27 @@ It is not a virtual environment manager. We have Pipenv for that.
 Pyenv installation is fairly easy and well-documented.
 - **Linux**: to install pyenv use [the automated installer](https://github.com/pyenv/pyenv-installer) or follow [the manual installation instructions on Github](https://github.com/pyenv/pyenv#basic-github-checkout).
 
-  ```
+  ```bash
   $ curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
   ```
   The installer will output some configuration code at the end that needs to be added to your shell’s rc file:
-  ```
+  
+  ```bash
   $ #ensure the following is in your ~/.<SHELL>rc (.bashrc, .zshrc, .kshrc)export PATH="$HOME/.pyenv/bin:$PATH"
   $ eval "$(pyenv init -)"
   $ eval "$(pyenv virtualenv-init -)"
   $ export PYENV_ROOT="$HOME/.pyenv" # needed by pipenv
+  
   ```
   Finally, refresh your shell:
-  ```
+  ```bash
   $ source ~/.<SHELL>rc
   ```
+  
 - **Windows**: Use [the Pyenv-win fork](https://github.com/pyenv-win/pyenv-win) and follow [the installation instructions](https://github.com/pyenv-win/pyenv-win#installation)
 - **macOS**: [install via Homebrew](https://github.com/pyenv/pyenv#homebrew-on-macos)
 
-  ```
+  ```bash
   $ brew update
   $ brew install pyenv
   ```
@@ -99,15 +102,16 @@ Pyenv installation is fairly easy and well-documented.
 
 Once pyenv is installed can check which Python interpreters are already on the system:
 
-```
+```bash
 $ pyenv versions
 system
 ```
+
 If your output only says `system`, only the default pre-installed Python version of your OS is installed.
 
 Now check out all Python interpreter versions that are at your fingertips:
 
-```
+```bash
 $ pyenv install --list
 Available versions:
   2.1.3
@@ -117,14 +121,17 @@ Available versions:
   stackless-3.5.4
 
 ```
+
 To use any of these version of Python, you must first build and install them.
 I suggest you install the latest version (at time of writing this is 3.8.0):
 
-```
+```bash
 $ pyenv install 3.8.0
 ```
+
 Now install a global version of Python that is going to be used system-wide.
-```
+
+```bash
 $ pyenv global 3.8.0
 ```
 
@@ -158,7 +165,7 @@ Pipenv consists of two main components:
 There are several options for OS-specific installation described in [the Pipenv documentation](https://pipenv-fork.readthedocs.io/en/latest/install.html#installing-pipenv).
 We choose for the "pragmatic" installation using our global Python pip:
 
-```
+```bash
 $ pip install --user pipenv
 ```
 
@@ -184,10 +191,23 @@ Like pipenv it has two main components:
 2.  **A runtime mode**: Run the latest version of a Python application in a temporary environment with the `pipx run` command.
 
 **Installation**
-```
+This is the last time you will be using `pip` directly.
+Pip is dead, long live pip!
+
+```bash
 $ pip install --user pipx
 $ pipx ensurepath
 ```
+
+**Usage**
+You can install a package globally by running
+
+```bash
+$ pipx install PACKAGE
+```
+
+For example:
+
 
 # New Project Workflow
 
