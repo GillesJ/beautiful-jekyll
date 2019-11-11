@@ -133,6 +133,10 @@ Your operating system probably comes with a preinstalled version of Python which
 *Note: If a new Python version is released and you do not see it in `pyenv install --list`, you need to update pyenv with `pyenv update`.*
 
 # Pipenv
+{% include image.html
+            img="/img/pipenv-logo.png"
+            title="Pipenv logo."%}
+
 [Pipenv]() fetches and installs Python packages much like `pip`.
 Pipenv also handles the creation of virtual environments.
 In this sense, it puts together `pip` and `virtualenv` functionality in one user-friendly manager.
@@ -159,6 +163,11 @@ $ pip install --user pipenv
 ```
 
 # Pipx
+
+{% include image.html
+            img="/img/pipx-logo.png"
+            title="Pipx logo."%}
+
 Pipx solves the issue of installing and running Python applications.
 Python applications are pieces of end-user software written in Python.
 They are often fully-fledged command-line tools such as `black`, `cookiecutter`, `scrapy`, `glances`, or the ever popular `youtube-dl`.
