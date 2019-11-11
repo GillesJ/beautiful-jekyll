@@ -32,13 +32,13 @@ Here I share my best practices for handling multiple projects with their own env
 
 The approach should provide the following:
 - **Ease-of-use**: Simple creation of virtual environments that is cross-platform, without hacky installations for tools or barely documented scripts, and installs modules straight from Pypi pip or Github repos. Easy management of packages and dependencies.
-- Install and use **different Python versions**: Many developers -myself included- have to work on Python 2 due to legacy code, but also want to use the latest-and-greatest in new projects. To keep the system clean, this requires a manager for Python interpreter versions
+- Install and use **different Python versions**: Many developers -myself included- work on Python 2 legacy code, but also use the latest-and-greatest in new projects. To keep the system clean, this requires a manager for Python interpreter versions
 - Distinguish **project environments vs. global tools**: Separate project-based virtual environments from Python command-line tools.
 - **Document project requirements** unambiguously: Use a clear and non-ambiguous dependency graph to avoid version conflicts. This is especially handy in setting up existing projects.
 
-While a lot of ink has flowed on Python development tools, [many](https://amaral.northwestern.edu/resources/guides/pyenv-tutorial) blog [posts](https://opensource.com/article/19/4/managing-python-packages) contain out-dated information:
+While a lot of ink has flowed on Python development tools, [many](https://amaral.northwestern.edu/resources/guides/pyenv-tutorial) [blog](https://www.freecodecamp.org/news/manage-multiple-python-versions-and-virtual-environments-venv-pyenv-pyvenv-a29fb00c296f/) [posts](https://opensource.com/article/19/4/managing-python-packages) contain out-dated information:
 [Pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper) is often recommended.
-But it has been overtaken by pipenv, which offers a cleaner installation and more user-friendly and powerful solution to environment and module management.
+But it has been overtaken by `Pipenv`, which offers a cleaner installation and more user-friendly and powerful solution to environment and module management.
 Many older post also do not tackle globally installed Python command-line tools which cause confusion with multiple concurrent Python versions.
 
 # The Solution
@@ -208,6 +208,43 @@ $ pipx install PACKAGE
 
 For example:
 
+```bash
+$ pipx install pycowsay
+installed package pycowsay 2.0.3, Python 3.7.3
+These apps are now globally available
+  - pycowsay
+done! ✨ 🌟 ✨
+```
+
+Now we can run this application like any other:
+
+```bash
+$ pycowsay "pipx is awesome"
+  ____
+< pipx is awesome >
+  ====
+         \
+          \
+            ^__^
+            (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
+To uninstall simply run `pipx uninstall pycowsay`.
+
+To temporarily install and run an app in its own sandboxed environment:
+
+```bash
+$ pipx run pycowsay "pipx is awesome"
+```
+This will download and install and run a package, execute your command and arguments, and automatically remove it afterwards.
+`pipx run PACKAGE` is usefull for apps you don't use frequently and want to use the latest version.
+A typical example of such an app is `cookiecutter` which is typically run once to set-up projects.
+
+Updating installed packages to the latest version works like other package managers:
+Simply run `pipx upgrade-all` to upgrade all installed apps.
 
 # New Project Workflow
 
