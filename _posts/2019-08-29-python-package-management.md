@@ -134,7 +134,7 @@ Your operating system probably comes with a preinstalled version of Python which
 
 # Pipenv
 {% include image.html
-            img="/img/pipenv-logo.png"
+            img="/img/pipenv-logo.jpg"
             title="Pipenv logo."%}
 
 [Pipenv]() fetches and installs Python packages much like `pip`.
@@ -165,7 +165,7 @@ $ pip install --user pipenv
 # Pipx
 
 {% include image.html
-            img="/img/pipx-logo.png"
+            img="/img/pipx-logo.jpg"
             title="Pipx logo."%}
 
 Pipx solves the issue of installing and running Python applications.
