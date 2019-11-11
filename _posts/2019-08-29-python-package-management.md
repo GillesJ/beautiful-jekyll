@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tame the Snake Pt. 1: Python Package Management with Pyenv, Pipenv & Pipx"
+title: "Tame the Snake Pt. 1nge: Python Package Management with Pyenv, Pipenv & Pipx"
 subtitle: "Best practices for managing Python modules and virtual environment."
 description: Modern solutions to untangling your Python modules and environments. Pipenv + pyenv + pipx = awesome.
 permalink: python-package-management
@@ -368,3 +368,4 @@ $ cd .. && rm -r test-project
 # Alternatives
 - [Poetry](https://poetry.eustace.io/): Poetry is a snappier packaging and dependency manager to replace Pipenv. Unlike Pipenv, Poetry does not include Python interpreter versioning, is less widely used, and is not officially supported by [the Python Packaging Authority](https://www.pypa.io). Poetry however is [significantly faster](https://johnfraney.ca/posts/2019/03/06/pipenv-poetry-benchmarks-ergonomics/) when locking in dependencies and this translates to less waiting around when writing code. I will keep an eye on this promising project and follow up with an update after using it for a while.
 - [Conda](https://docs.conda.io): I personally have very bad experiences using Conda to install data-science and deep learning frameworks. Many conda packages are broken and unmaintained. While pip is integrated into Conda, pipenv is the more flexible alternative. Conda is bloated compared to other tools, suffers from feature creep, and places itself outside of the Python ecosystem.
+- [Flit](https://github.com/takluyver/flit) and [Hatch](https://github.com/ofek/hatch): very recent additions to the ecosystem which are still in their infancy. Will keep on eye on.
