@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tame the Snake: Python Package Management with Pyenv, Pipenv & Pipx"
+title: "Tame the Snake Pt. 1: Python Package Management with Pyenv, Pipenv & Pipx"
 subtitle: "Best practices for managing Python modules and virtual environment."
 description: Modern solutions to untangling your Python modules and environments. Pipenv + pyenv + pipx = awesome.
 permalink: python-package-management
