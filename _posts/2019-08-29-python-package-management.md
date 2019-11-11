@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tame the Snake: Python Package Management"
+title: "Tame the Snake: Python Package Management with Pyenv, Pipenv & Pipx"
 subtitle: "Best practices for managing Python modules and virtual environment."
 description: Modern solutions to untangling your Python modules and environments. Pipenv + pyenv + pipx = awesome.
 permalink: python-package-management
@@ -22,7 +22,7 @@ Managing these libraries, packages and modules has historically been quite messy
 {% include image.html
             img="/img/python-environment.png"
             title="Famous XKCD comic lamenting the state of his Python environement."
-            caption="XKCD on the frustration that is Python package management. Source: https://xkcd.com/1987/" %}
+            caption="This is the situation we want to avoid. Source: https://xkcd.com/1987/" %}
 
 Different projects require different module and even different Python versions.
 For a long while writing code in Python required hacked together tools to make pip behave cleanly when working on multiple projects.
@@ -45,32 +45,32 @@ Many older post also do not tackle globally installed Python command-line tools 
 Sadly, there is not one tool that integrates our desired requirements to a satisfactory level.
 In vain of [the Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) -"Do One Thing and Do It Well"- we pick one tool to handle each aspect of our ideal workflow.
 
-Pyenv, Pipenv, and Pipx meet and excede our requirements and are both mature and actively supported by the community.
+`Pyenv`, `Pipenv`, and `Pipx` meet and excede our requirements and are both mature and actively supported by the community.
 
-- [Pyenv](https://github.com/pyenv/pyenv): Install different Python versions globally and locally.
-- [Pipenv](https://pipenv.kennethreitz.org): Install module packages and creates environments for your projects. Recommended packaging tool by the official Python Packaging Authority
-- [Pipx](https://github.com/pipxproject/pipx): Install and run Python applications such as command-line tools.
+- [**`Pyenv`**](https://github.com/pyenv/pyenv): Install different Python versions globally and locally.
+- [**`Pipenv`**](https://pipenv.kennethreitz.org): Install module packages and creates environments for your projects. Recommended packaging tool by the official Python Packaging Authority
+- [**`Pipx`**](https://github.com/pipxproject/pipx): Install and run Python applications such as command-line tools.
 
 Don't feel bad if you are a long-time Python dev and have not heard of these.
-Pipx and Pipenv are fairly recent additions (2018 and 2019 resp.) to the Python development toolset.
+`Pipx` and `Pipenv` are fairly recent additions (2018 and 2019 resp.) to the Python development toolset.
 
 We will now go over each tool, provide installation and common-usage instructions.
 Then I give an example of a typical workflow for new projects.
 
 # Pyenv
-Pyenv excells at managing Python versions.
+[`Pyenv`](https://github.com/pyenv/pyenv) is the go-to tool for managing Python versions.
 It allows for:
 - Setting directory-level local Python versions for projects
 - Setting a system-wide Python version on a per-user basis.
 
 It supports the default CPython interpreter as well as pypy, anaconda, jython, micropython, etc.
 
-Pyenv excells at handling different Python versions, but don't be fooled by its name:
-It is not a virtual environment manager. We have Pipenv for that.
+`Pyenv` excells at handling different Python versions, but don't be fooled by its name:
+It is not a virtual environment manager. We have `Pipenv` for that.
 
 **Installation:**
 
-Pyenv installation is fairly easy and well-documented.
+`Pyenv` installation is fairly easy and well-documented.
 - **Linux**: to install pyenv use [the automated installer](https://github.com/pyenv/pyenv-installer) or follow [the manual installation instructions on Github](https://github.com/pyenv/pyenv#basic-github-checkout).
 
   ```bash
@@ -83,9 +83,10 @@ Pyenv installation is fairly easy and well-documented.
   $ eval "$(pyenv init -)"
   $ eval "$(pyenv virtualenv-init -)"
   $ export PYENV_ROOT="$HOME/.pyenv" # needed by pipenv
-  
   ```
+  
   Finally, refresh your shell:
+  
   ```bash
   $ source ~/.<SHELL>rc
   ```
@@ -100,7 +101,7 @@ Pyenv installation is fairly easy and well-documented.
 
 **Post-installation actions**
 
-Once pyenv is installed can check which Python interpreters are already on the system:
+Once `Pyenv` is installed can check which Python interpreters are already on the system:
 
 ```bash
 $ pyenv versions
@@ -119,7 +120,6 @@ Available versions:
 ...
   stackless-3.4.7
   stackless-3.5.4
-
 ```
 
 To use any of these version of Python, you must first build and install them.
@@ -139,35 +139,6 @@ Your operating system probably comes with a preinstalled version of Python which
 
 *Note: If a new Python version is released and you do not see it in `pyenv install --list`, you need to update pyenv with `pyenv update`.*
 
-# Pipenv
-{% include image.html
-            img="/img/pipenv-logo.jpg"
-            title="Pipenv logo."%}
-
-[Pipenv]() fetches and installs Python packages much like `pip`.
-Pipenv also handles the creation of virtual environments.
-In this sense, it puts together `pip` and `virtualenv` functionality in one user-friendly manager.
-
-It specifies a project-specific `Pipfile` that contains the exact module versions and Python requirements.
-This file is similar but superior to your old `requirements.txt` file because it contains more information and auto-generates a `Pipfile.lock` to avoid potential conflicts and ambiguities.
-The `Pipfile.lock` does two things:
-1. Provides good security by keeping a hash of each package installed.
-2. Pins the versions of all dependencies and sub-dependencies, giving you replicable environments.
-
-This avoids nasty situations like when you share a project with your colleague and their version of a library doesn't match so the code does not run.
-Simply call `pipenv install` in a project folder containing a Pipfile and your dependencies and virtual environment are ready to go.
-
-Pipenv consists of two main components:
-1. **An installation mode** `pipenv install` for installing packages.
-2. **A runtime mode** `pipenv shell` and `pipenv run` for activating virtual environments and integrating the dependencies, and running a command in the environment.
-
-**Installation:**
-There are several options for OS-specific installation described in [the Pipenv documentation](https://pipenv-fork.readthedocs.io/en/latest/install.html#installing-pipenv).
-We choose for the "pragmatic" installation using our global Python pip:
-
-```bash
-$ pip install --user pipenv
-```
 
 # Pipx
 
@@ -175,24 +146,24 @@ $ pip install --user pipenv
             img="/img/pipx-logo.jpg"
             title="Pipx logo."%}
 
-Pipx solves the issue of installing and running Python applications.
+[Pipx]([**`Pipx`**](https://github.com/pipxproject/pipx) solves the issue of installing and running Python applications.
 Python applications are pieces of end-user software written in Python.
-They are often fully-fledged command-line tools such as `black`, `cookiecutter`, `scrapy`, `glances`, or the ever popular `youtube-dl`.
+They are often fully-fledged command-line tools such as [`black`](https://black.readthedocs.io), [`cookiecutter`](https://cookiecutter.readthedocs.io), [`scrapy`](https://scrapy.org/doc/), [`glances`](https://nicolargo.github.io/glances/), or the ever popular [`youtube-dl`](https://ytdl-org.github.io/youtube-dl/index.html).
 
 These are often Python modules that you want to be available to the user globally.
-They are not dependencies in a project, so using Pipenv to manage them is ill-advised.
+They are not dependencies in a project, so using `Pipenv` to manage them is ill-advised.
 You want to update these packages from time-to-time as their security and functionality improves.
 
-Pipx is a tool to help you install and run end-user applications written in Python.
-Pipx is not a tool for development or publishing of your code -- it's only for consuming already published packages.
+`Pipx` is a tool to help you install and run end-user applications written in Python.
+`Pipx` is not a tool for development or publishing of your code -- it's only for consuming already published packages.
 
-Like pipenv it has two main components:
+Like `Pipenv` it has two main components:
 1. **An installation mode**: Cleanly install, list, upgrade, and uninstall packages globally and in an isolated environment with the `pipx install PACKAGE` command.
 2.  **A runtime mode**: Run the latest version of a Python application in a temporary environment with the `pipx run` command.
 
 **Installation**
 This is the last time you will be using `pip` directly.
-Pip is dead, long live pip!
+`Pip` is dead, long live `Pip`!
 
 ```bash
 $ pip install --user pipx
@@ -239,6 +210,7 @@ To temporarily install and run an app in its own sandboxed environment:
 ```bash
 $ pipx run pycowsay "pipx is awesome"
 ```
+
 This will download and install and run a package, execute your command and arguments, and automatically remove it afterwards.
 `pipx run PACKAGE` is usefull for apps you don't use frequently and want to use the latest version.
 A typical example of such an app is `cookiecutter` which is typically run once to set-up projects.
@@ -246,8 +218,38 @@ A typical example of such an app is `cookiecutter` which is typically run once t
 Updating installed packages to the latest version works like other package managers:
 Simply run `pipx upgrade-all` to upgrade all installed apps.
 
+# Pipenv
+{% include image.html
+            img="/img/pipenv-logo.jpg"
+            title="Pipenv logo."%}
+
+[`Pipenv`](https://pipenv.kennethreitz.org) fetches and installs Python packages much like `pip`.
+`Pipenv` also handles the creation of virtual environments.
+In this sense, it puts together `pip` and `virtualenv` functionality in one user-friendly manager.
+
+It specifies a project-specific `Pipfile` that contains the exact module versions and Python requirements.
+This file is similar but superior to your old `requirements.txt` file because it contains more information and auto-generates a `Pipfile.lock` to avoid potential conflicts and ambiguities.
+The `Pipfile.lock` does two things:
+1. Provides good security by keeping a hash of each package installed.
+2. Pins the versions of all dependencies and sub-dependencies, giving you replicable environments.
+
+This avoids nasty situations like when you share a project with your colleague and their version of a library doesn't match so the code does not run.
+Simply call `pipenv install` in a project folder containing a Pipfile and your dependencies and virtual environment are ready to go.
+
+`Pipenv` consists of two main components:
+1. **An installation mode** `pipenv install` for installing packages.
+2. **A runtime mode** `pipenv shell` and `pipenv run` for activating virtual environments and integrating the dependencies, and running a command in the environment.
+
+**Installation:**
+There are several options for OS-specific installation described in [the Pipenv documentation](https://pipenv-fork.readthedocs.io/en/latest/install.html#installing-pipenv).
+We choose for the "pragmatic" installation using our `Pipx` as `Pipenv` is meant to be installed globally:
+
+```bash
+$ pipx install pipenv
+```
+
 # New Project Workflow
-Let's demonstrate how these `pyenv` and `pipenv` work together to start a new Python project.
+Let's demonstrate how `Pyenv` and `Pipenv` work together to start a new Python project.
 
 Make a directory in which your source code will be written:
 
@@ -314,7 +316,7 @@ numpy = "*"
 python_version = "3.8"
 ```
 
-As you can see, it specifies the source of our packages, the module version number ("*") meaning any, and the exact Python version.
+As you can see, it specifies the source of our packages, the module version number ("*" meaning any version, by default this will install the latest version), and the exact Python version.
 
 To run write and test code you need to activate to virtual environment:
 
@@ -323,11 +325,45 @@ $ pipenv shell
 Launching subshell in virtual environment…
 ```
 
-These three steps are all there is too it!
+These three steps are all there is to it!
+You now have an easy to manage Python development folder which can be replicated without error.
 
-If you need to know the path to the Python interpreter binary because you want to set it in your IDE of choice you can simply run `which python` from within the virtual environment subshell.
+If you need to know the path to the Python interpreter binary because you want to set it in [your IDE of choice](https://www.jetbrains.com/pycharm/) you can simply run `which python` from within the virtual environment subshell.
 
 # Existing Project Workflow
+This is for working on an existing codebase.
+The codebase can be a project you pulled off Github or a folder shared with colleagues.
+If the original writer uses `Pip`, this means it already contains a `requirements.txt` file.
+Even better yet, they are already on the Pipenv boat and it contains a `Pipfile.lock`.
+
+When a `requirements.txt` file is present:
+
+```bash
+$ pipenv install -r /path/to/requirements.txt
+```
+
+This will install all dependencies and create a Pipfile from `requirements.txt`.
+
+If the project contains a `Pipfile.lock`, installing and creating a virtual env is as simple as:
+
+```bash
+$ pipenv install
+Installing dependencies from Pipfile.lock (456e4b)…
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 1/1 — 00:00:00
+```
+
+Et voila! You're ready to start working.
+
+**Clean-up**
+
+The remove the virtual environment and the `test-project` folder:
+
+```bash
+$ cd test-project
+$ pipenv --rm
+Removing virtualenv (/home/gilles/.local/share/virtualenvs/test-project-J2TrTMEi)…
+$ cd .. && rm -r test-project
+```
 
 # Alternatives
 - [Poetry](https://poetry.eustace.io/): Poetry is a snappier packaging and dependency manager to replace Pipenv. Unlike Pipenv, Poetry does not include Python interpreter versioning, is less widely used, and is not officially supported by [the Python Packaging Authority](https://www.pypa.io). Poetry however is [significantly faster](https://johnfraney.ca/posts/2019/03/06/pipenv-poetry-benchmarks-ergonomics/) when locking in dependencies and this translates to less waiting around when writing code. I will keep an eye on this promising project and follow up with an update after using it for a while.
