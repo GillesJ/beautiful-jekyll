@@ -247,6 +247,85 @@ Updating installed packages to the latest version works like other package manag
 Simply run `pipx upgrade-all` to upgrade all installed apps.
 
 # New Project Workflow
+Let's demonstrate how these `pyenv` and `pipenv` work together to start a new Python project.
+
+Make a directory in which your source code will be written:
+
+```bash
+$ mkdir test-project
+$ cd test-project
+```
+
+Next, use `Pyenv` to set the local Python version:
+
+```bash
+$ pyenv local 3.8.0
+```
+
+This will associate that directory with Python 3.8.0 so that calling Python from within the "test-project" folder will always refer to that version of Python.
+**Note that you first need to install the desired version: `pyenv install 3.8.0`**
+
+Then we use `Pipenv` to simultanously install a package and create a virtual environment:
+
+```bash
+$ pipenv install numpy
+Creating a virtualenv for this project…
+Pipfile: /home/gilles/test-project/Pipfile
+Using /home/gilles/.pyenv/versions/3.8.0/bin/python3.8 (3.8.0) to create virtualenv…
+⠧ Creating virtual environment...Already using interpreter /home/gilles/.pyenv/versions/3.8.0/bin/python3.8
+Using base prefix '/home/gilles/.pyenv/versions/3.8.0'
+New python executable in /home/gilles/.local/share/virtualenvs/test-project-J2TrTMEi/bin/python3.8
+Also creating executable in /home/gilles/.local/share/virtualenvs/test-project-J2TrTMEi/bin/python
+Installing setuptools, pip, wheel...
+done.
+
+✔ Successfully created virtual environment! 
+Virtualenv location: /home/gilles/.local/share/virtualenvs/test-project-J2TrTMEi
+Creating a Pipfile for this project…
+Installing numpy…
+Adding numpy to Pipfile's [packages]…
+✔ Installation Succeeded 
+Pipfile.lock not found, creating…
+Locking [dev-packages] dependencies…
+Locking [packages] dependencies…
+✔ Success! 
+Updated Pipfile.lock (456e4b)!
+Installing dependencies from Pipfile.lock (456e4b)…
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 1/1 — 00:00:00
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+```
+
+Let's check out our Pipfile to see the exact specification of our dependencies:
+
+```bash
+$ cat Pipfile
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+
+[requires]
+python_version = "3.8"
+```
+
+As you can see, it specifies the source of our packages, the module version number ("*") meaning any, and the exact Python version.
+
+To run write and test code you need to activate to virtual environment:
+
+```bash
+$ pipenv shell
+Launching subshell in virtual environment…
+```
+
+These three steps are all there is too it!
+
+If you need to know the path to the Python interpreter binary because you want to set it in your IDE of choice you can simply run `which python` from within the virtual environment subshell.
 
 # Existing Project Workflow
 
