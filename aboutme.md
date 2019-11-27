@@ -12,19 +12,17 @@ He takes personal interest in blockchain technologies such as smart contracts an
 ## Contact
 You can message me by using the email form below:
 
-<form method="POST" id="formaction">
-  <input name="_replyto" placeholder="Your email" type="email"><br />
-  <input name="_subject" placeholder="Message subject" /><br />
-  <textarea name="message" placeholder="Your message"></textarea><br />
+<form action="https://formspree.io/mzbzzggb" method="POST">
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
   <button type="submit">Send</button>
-  <input type="hidden" name="_next" value="//jacobsgill.es/thanks.html" />
-  <input type="text" name="_gotcha" style="display:none" />
-  <input type="hidden" name="_format" value="plain" />
 </form>
-<script>
-    var contactform =  document.getElementById('formaction');
-    contactform.setAttribute('action', '//formspree.io/' + 'gilles' + '@' + 'jacobsgill' + '.' + 'es');
-</script>
 
 If you need more secure and confidential communication you can find [my PGP public encryption key on keybase](https://keybase.io/gillesjacobs).
 
