@@ -20,7 +20,7 @@ Functionality will decide which implant chip I buy and even IF I get one at all.
 
 {% include image.html
             img="/img/chip-on-hand-opt.jpg"
-            title="RFID implant location."}
+            title="RFID implant location."%}
 
 # Desired Functionality
 In order for these RFID implants to work well, they cannot be placed on top of eachother (generally).
