@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Deciding on a Cyborg Implant: Exploring NFC Smartcard Tools"
-subtitle: "Exploring and testing tools for reading/writing/cloning smartcards to eventually implant them in my hand."
+title: "A Cyborg Implant That Suits You: Exploring NFC Smartcard Tools"
+subtitle: "First steps on my journey to getting a chip implant."
 description: Exploring and testing tools for reading/writing/cloning smartcards to eventually implant them in my hand.
 permalink: adventures-into-nfc
 image: /img/implant-icon.jpg
@@ -17,6 +17,10 @@ I have never modded my body in any way before and am really apprehensive of the 
 I have no tattoos, no piercings, not even an earring.
 In this post I weigh all the options, the risks, and mainly functionality that these implants can provide before pulling the trigger.
 Functionality will decide which implant chip I buy and even IF I get one at all.
+
+{% include image.html
+            img="/img/chip-on-hand-opt.jpg"
+            title="RFID implant location."}
 
 # Desired Functionality
 In order for these RFID implants to work well, they cannot be placed on top of eachother (generally).
@@ -108,6 +112,6 @@ These legacy cards have a proprietary cryptographic function called Crypto1 whic
 There are even some tools for cracking these cards' keys. Nice!
 
 # Setting up lib-nfc
-In order to be absolutely 
+In order to be 
 lib-nfc provides a lot of tools and functionality for interacting with NFC smartcards.
 It is also required by many other tools such as `mfoc` which we will use for cracking 4byte Mifare Classic 1k cards.
