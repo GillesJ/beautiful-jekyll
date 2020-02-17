@@ -15,7 +15,7 @@ Job opening for annotator student workers for common-sense investor sentiment in
 The data annotation is part of the [SENTiVENT project on economic event extraction and sentiment analysis]({{ site.baseurl }}{% link _posts/2018-06-17-sentivent-project.md %}).
 
 # Detailed job description
-You will be annotating economic sentiment defined as common-sense investor sentiment in business news articles.
+You will be annotating economic sentiment defined as common-sense investor sentiment in English business news articles.
 Detailed annotation instructions are given to annotators describing the steps and categories to annotate.
 We have a computer room for in-office work where you will be trained.
 The annotation tool we use is WebAnno and is web-based: you only need a supported browser (Chrome or Edge) for remote working on your own computer.
@@ -26,13 +26,22 @@ Understanding the guidelines and economic news articles requires an excellent gr
             title="WebAnno Interface Example"
             caption="Example of the annotation interface." %}
 
+            
+## Job description:
+Labeling of English economic news articles for common-sense investor attitudes.
+You will read pre-selected economic news articles and annotate relevant categories using our web-based annotation tool.
+Partial remote/home working is possible.
+
+## Profile:
+- Excellent command of English.
+- Currently studying in a field related to economics, finance, or business administration.
+- Knowledge/experience in stock market investing is preferred.
+
 ## Applying
 Please send your CV and a brief cover letter to **GillesM.Jacobs@ugent.be**.
 Also include the following information
 - Your proficiency level of English.
-- Your availability for .
 - Whether you have student statute in Belgium/EU up until 30th of September.
-- Whether you can come in-office to Ghent.
 
 ## Daily working hours
 Annotating event categories is a cognitively challenging task which requires a lot of concentration and mental effort. We aim for 4 hour working days. If we determine an annotator can handle more without diminishing quality, the daily working hours can be increased.
