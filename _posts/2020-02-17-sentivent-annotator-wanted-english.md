@@ -26,12 +26,6 @@ Understanding the guidelines and economic news articles requires an excellent gr
             title="WebAnno Interface Example"
             caption="Example of the annotation interface." %}
 
-            
-## Job description:
-Labeling of English economic news articles for common-sense investor attitudes.
-You will read pre-selected economic news articles and annotate relevant categories using our web-based annotation tool.
-Partial remote/home working is possible.
-
 ## Profile:
 - Excellent command of English.
 - Currently studying in a field related to economics, finance, or business administration.
