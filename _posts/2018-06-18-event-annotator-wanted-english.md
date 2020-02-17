@@ -7,9 +7,6 @@ permalink: event-annotator-wanted-english
 image: /img/sentiventlogowanted.jpg
 tags: [student worker, studentenjob, annotator, English, event, LT3, UGent, SENTiVENT, job]
 published: true
-redirect_from:
-  - "/annotator/"
-  - "/studentwork_sentivent_annotator/"
 ---
 Job opening for annotator student workers for economic events in the SENTiVENT project in English news articles.
 The data annotation is part of the [SENTiVENT project on economic event extraction and sentiment analysis]({{ site.baseurl }}{% link _posts/2018-06-17-sentivent-project.md %}).
