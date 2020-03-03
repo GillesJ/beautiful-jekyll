@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Pytorch Deep Learning GPU Stack in 5 minutes or less"
-subtitle: "Fast setup for a Pytorch stack on GPU with CUDA + CUDNN"
-description: Steps using Docker containers for a Pytorch deep learning stack on GPU with CUDA + CUDNN.
+title: "PyTorch GPU Stack in 5 minutes or less"
+subtitle: "Fast setup for a PyTorch stack on GPU with CUDA + CUDNN"
+description: Steps using Docker containers for a PyTorch deep learning stack on GPU with CUDA + CUDNN.
 permalink: pytorch-gpu-stack-setup
 image: /img/pytorch-stack-icon.jpg
 tags: [pytorch, deep learning, gpu, docker, cuda, cudnn]
@@ -10,33 +10,33 @@ published: true
 ---
 
 Historically, setting up deep learning stacks with GPU support has been a hassle.
-This was because of poorly documented version conflicts between NVIDIA drivers, CUDA, CUDNN and your DL library of choice (Pytorch and TF for me).
+This was because of poorly documented version conflicts between NVIDIA drivers, CUDA, CUDNN and your DL library of choice (PyTorch and TF for me).
 I remember having spent hours on setting up Tensorflow because its docs didn't say which NVIDIA driver was required.
 Documentation these days is miles better but often omits one of the most user-friendly ways of developing for Deep Learning: containers.
 
 {% include image.html
             img="/img/pytorch-stack.jpg"
-            title="Pytorch + CUDA + CUDNN stack in Docker"
+            title="PyTorch + CUDA + CUDNN stack in Docker"
             caption="Stacked and ready to roll." %}
 
 Recently, Docker v19.03 has received full support for NVIDIA GPUs (before you had to use NVIDIA's custom fork.)
 
-People have been hacking their own containers with Pytorch + CUDA + CUDNN for quite a while now.
-But little known is that an official release exists of Pytorch with the GPU stack.
-Presumably, this is little known because it undocumented in the official Pytorch documentation and is hidden behind the Tags section of the Pytorch Docker Hub repo.
+People have been hacking their own containers with PyTorch + CUDA + CUDNN for quite a while now.
+But little known is that an official release exists of PyTorch with the GPU stack.
+Presumably, this is little known because it undocumented in the official PyTorch documentation and is hidden behind the Tags section of the PyTorch Docker Hub repo.
 
-NVIDIA GPU Cloud also has a Pytorch image but requires new GPUs with a CUDA Compute Capability of 6.0+.
+NVIDIA GPU Cloud also has a PyTorch image but requires new GPUs with a CUDA Compute Capability of 6.0+.
 My Tesla K80 DL and Pascal V100 equipped servers fall below that and my poor notebook only has an 840M with CC 3.5.
 The NVIDIA GPU Cloud image will detect your GPU and CUDA just fine but will fail when trying to actually use the device.
 If you're running into `Cuda error: no kernel image is available for execution on the device` when trying to load Tensors on your GPU with those images.
 That's the undocumented reason.
 
-## Requirements:
+## Requirements
 - Docker v19.03: [Installation instructions here](https://docs.docker.com/install/).
 - NVIDIA driver: Probably already installed but [official instructions here](https://www.nvidia.com/Download/).
 
 ## Steps
-1. Pull the prebuilt Pytorch Docker image with CUDA + CUDNN: <br/>Go to [Tags tab of the Pytorch Docker Hub page](https://hub.docker.com/r/pytorch/pytorch/tags), select the latest developer image (ends in `devel`) which has CUDA and CUDNN in the name:
+1. Pull the prebuilt PyTorch Docker image with CUDA + CUDNN: <br/>Go to [Tags tab of the PyTorch Docker Hub page](https://hub.docker.com/r/pytorch/pytorch/tags), select the latest developer image (ends in `devel`) which has CUDA and CUDNN in the name:
   <br/>`docker pull pytorch/pytorch:1.4-cuda10.1-cudnn7-devel`
 
 2. Run the images: <br/>`docker run --gpus all -it --rm --ipc=host -v /localdir/:/containerdir/ --name mypytorchproject pytorch/pytorch:1.4-cuda10.1-cudnn7-devel`
