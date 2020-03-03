@@ -21,9 +21,9 @@ Documentation these days is miles better but often omits one of the most user-fr
 
 Recently, Docker v19.03 has received full support for NVIDIA GPUs (before you had to use NVIDIA's custom fork.)
 
-People have been hacking their own containers with PyTorch + CUDA + CUDNN for quite a while now.
+People have been rolling their own containers with PyTorch + CUDA + CUDNN for [quite](https://github.com/anibali/docker-pytorch) [some time](https://hub.docker.com/r/ceshine/cuda-pytorch/) now.
 But little known is that an official release exists of PyTorch with the GPU stack.
-Presumably, this is little known because it undocumented in the official PyTorch documentation and is hidden behind the Tags section of the PyTorch Docker Hub repo.
+Presumably, the existence of a CUDA-enabled container is little known because it is undocumented in [the official PyTorch documentation](https://pytorch.org/docs/stable/index.html) and is hidden behind the Tags section of [the PyTorch Docker Hub repo](https://hub.docker.com/r/pytorch/pytorch/).
 
 NVIDIA GPU Cloud also has a PyTorch image but requires new GPUs with a CUDA Compute Capability of 6.0+.
 My Tesla K80 DL and Pascal V100 equipped servers fall below that and my poor notebook only has an 840M with CC 3.5.
