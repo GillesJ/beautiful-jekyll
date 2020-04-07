@@ -40,7 +40,7 @@ That's the undocumented reason.
   <br/>`docker pull pytorch/pytorch:1.4-cuda10.1-cudnn7-devel`
 
 2. Run the images: <br/>`docker run --gpus all -it --rm --ipc=host -v /localdir/:/containerdir/ --name mypytorchproject pytorch/pytorch:1.4-cuda10.1-cudnn7-devel`
-  - `--gpus all` Use all available CUDA enabled GPUs.
+  - `--gpus all` Use all available CUDA enabled GPUs. Use `--gpus '"device=0,1"'` to specify specific gpus.
   - `--it` means it will run in interactive mode.
   - `--rm` will delete the container when finished.
   - `--ipc==host` Use the host's inter-process communication namespace in using shared memory. If you use Torch multiprocessing for multi-threaded data loaders, the default shared memory segment size that the container runs with may not be enough. Therefore, you should increase the shared memory size with this option. You can also manually set the size with `--shm-size=`.
