@@ -19,7 +19,7 @@ We have published new research as an extension from the [AMiCA project on cybers
 {% include image.html
             img="/img/bullying-participants-cartoon-opt.jpg"
             title="The participants in bullying." 
-            caption="The participants in bullying. Copyright: [KidsFrontier](https://kids.frontiersin.org/article/10.3389/frym.2018.00014)"%}
+            caption="The participants in bullying. Copyright: <a href="https://kids.frontiersin.org/article/10.3389/frym.2018.00014">KidsFrontier</a>"%}
             
 The article full text can be read for free in open-access [here](https://www.cambridge.org/core/journals/natural-language-engineering/article/automatic-classification-of-participant-roles-in-cyberbullying-can-we-detect-victims-bullies-and-bystanders-in-social-media-text/A2079C2C738C29428E666810B8903342) after an initial period.
 
