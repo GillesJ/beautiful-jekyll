@@ -16,7 +16,7 @@ Turns out this is quite a difficult task, even with using the latest techniques 
 You can view my presentation here:
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=iKF7hUMdCw8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Read the paper here: https://www.aclweb.org/anthology/2020.fnp-1.36.pdf.
+Read the paper at [this link](https://www.aclweb.org/anthology/2020.fnp-1.36.pdf).
 
 Based on a recently developed fine-grained event extraction dataset for the economic domain,we present in a pilot study for supervised economic event extraction.
 We investigate how a state-of-the-art neural model for event extraction performs on the trigger and argument identification andclassification.
