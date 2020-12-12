@@ -14,7 +14,7 @@ TL;DR: We created a dataset and system that automatically gets "what, who, when,
 Turns out this is quite a difficult task, even with using the latest techniques in deep learning!
 
 You can view my presentation here:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6Rv_C09lTLc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=iKF7hUMdCw8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Read the paper here: https://www.aclweb.org/anthology/2020.fnp-1.36.pdf.
 
