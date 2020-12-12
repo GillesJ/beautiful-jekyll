@@ -3,13 +3,13 @@ layout: post
 title: "Extracting Fine-Grained Economic Events from Business News."
 subtitle: "New publication and presentation in economic NLP research."
 description: "Can we extract what, who, when, how much is happening in business news?"
-permalink: fnsfnp-economic-events
+permalink: fnpfns-economic-events
 image: img/sentiventlogo.jpg
 tags: [economic events, financial nlp, sentivent, presentation, coling2020, research, machine learning]
 published: true
 ---
 
-I will be presenting new work on economic event extraction at the FNS-FNP workshop @ COLING2020.
+I will be presenting new work on economic event extraction at the FNP-FNS workshop @ COLING2020.
 TL;DR: We created a dataset and system that automatically gets "what, who, when, how much, and why" is happening from economic news text.
 Turns out this is quite a difficult task, even with using the latest techniques in deep learning!
 
