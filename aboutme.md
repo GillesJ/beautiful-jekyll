@@ -15,6 +15,7 @@ You can message me by using the email form below:
     Your email:
     <input type="text" name="_replyto">
   </label>
+  <br></br>
   <label>
     Your message:
     <textarea name="message"></textarea>
