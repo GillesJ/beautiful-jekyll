@@ -24,4 +24,4 @@ We have published new research as an extension from the [AMiCA project on cybers
 The article full text can be read for free in open-access [here](https://www.cambridge.org/core/journals/natural-language-engineering/article/automatic-classification-of-participant-roles-in-cyberbullying-can-we-detect-victims-bullies-and-bystanders-in-social-media-text/A2079C2C738C29428E666810B8903342) after an initial period.
 
 Here's a video showing what the AMiCA project is all about:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6Rv_C09lTLc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6Rv_C09lTLc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
