@@ -81,10 +81,6 @@ I also want to go even further than just pointing to the positive, negative or n
 Wouldn't it be useful to know exactly which opinion is expressed about what part of a company or event?
 This is called aspect-based sentiment analysis and automatically gives us an overview about what negative or positive opinion is expressed about what part of an event or entity.
 
-{% include image.html
-            img="/img/bull-bear.jpg" %}
-
-
 # Applications
 What is all this technology useful for?
 Combining the "what, why, how, who and when" of factual events with subjective opinion data "how do people feel about what" unlocks a valuable data source at scale previously unavailable for a wide range of financial applications.
