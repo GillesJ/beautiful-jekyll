@@ -58,6 +58,15 @@ For example, a company missing a sales target is bad likely for investors, a mis
 Automatically obtaining this information at scale is valuable because it summarizes what is going on with a company, stock or market without a human having to read every single newspaper.
 
 ## Investor Sentiment
+
+In addition to factual event data, opinion data is also extracted in a fine-grained manner.
+We annotated positive, negative and neutral investor sentiment as a seperate category, but also on-top of event annotations.
+
+{% include image.html
+            img="/img/sentiment-annotation-examples.svg"
+            title="Standalone aspect-based sentiment extraction example."
+            caption="Seperate fine-grained investor sentiment example." %}
+
 In economic news, journalists give objective information on recent events while also discussing the implications of events in a subjective manner.
 Sentiment analysis tries to automatically determine if the opinions expressed in a text are positive or negative.
 When someone writes "Enchanting comedy with a nice sense of whimsy." about a movie, the sentiment analysis system marks the review as positive.
